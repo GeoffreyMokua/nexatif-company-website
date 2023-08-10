@@ -22,7 +22,7 @@ function ContactInfo(props) {
               : props.theme === 'contact-info-style-02' && (
                   <label>Address :</label>
                 )}
-            <span>6580 Allison Turnpike Creminfort, AL 32808</span>
+            <span>Nairobi Kenya Monrovia, Street</span>
           </li>
           <li key="item2">
             {props.theme === 'contact-info-style-01' && (
@@ -34,7 +34,7 @@ function ContactInfo(props) {
                   <label>Phone :</label>
                 )}
             <Link to="/contact" className="phone-number">
-              +(704) 279-1249
+              +(254) 790482160
             </Link>
           </li>
           <li key="item3">
@@ -46,7 +46,7 @@ function ContactInfo(props) {
               : props.theme === 'contact-info-style-02' && (
                   <label>Email :</label>
                 )}
-            <Link to="mailto:letstalk@hisoft.com">letstalk@hisoft.com</Link>
+            <Link to="mailto:letstalk@hisoft.com">letstalk@tronix.com</Link>
           </li>
           <li key="item4">
             {props.theme === 'contact-info-style-01' && (
@@ -55,7 +55,7 @@ function ContactInfo(props) {
             {props.theme === 'contact-info-style-02' && props.label
               ? null
               : props.theme === 'contact-info-style-02' && <label>Fax :</label>}
-            <Link to="/contact">+00 12345678</Link>
+            <Link to="/contact">+254 222456</Link>
           </li>
         </ul>
       </div>
