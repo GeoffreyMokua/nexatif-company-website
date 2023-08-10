@@ -27,7 +27,7 @@ function AboutUs() {
     <>
       <div className="site-content">
         <PageHeader
-          title="About Hi-soft"
+          title="About Tronix"
           description="Our Expertise. Know more about what we do"
           breadCrumbItems={[
             { label: 'Home', path: '/' },
@@ -42,7 +42,7 @@ function AboutUs() {
                 <Col lg={9}>
                   <SectionTitle
                     extraClass="text-center"
-                    title="Established 2010 in Hi-soft has been offering world-class information technology."
+                    title="Established in 2023 Tronix has been offering world-class information technology."
                     content="Positive pleasure-oriented goals are much more powerful motivators than negative fear-based ones. Although each is successful separately, the right combination of both is the most powerful motivational force known to humankind."
                   />
                 </Col>
@@ -50,7 +50,7 @@ function AboutUs() {
               <Row className="">
                 <Col md={3}></Col>
                 <Col md={2} className="position-relative">
-                  <h1 className="year">2010</h1>
+                  <h1 className="year">2023</h1>
                 </Col>
                 <Col md={5} className="col-md-5">
                   <div className="timeline-text">
@@ -62,7 +62,7 @@ function AboutUs() {
                       your life. Just go there now.
                     </h6>
                     <p className="border-start ps-3 font-italic">
-                      10 years out… having made a decade of changes. Imagine
+                      1 year out… having made a decade of changes. Imagine
                       living the life you want to live.
                     </p>
                     <p className="mb-0">
