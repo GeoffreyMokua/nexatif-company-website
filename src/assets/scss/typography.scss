@@ -1,0 +1,109 @@
+body {
+    font-family: $body-font;
+    color: $body-color;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: $title-font;
+    font-weight: normal;
+    color: $title-color;
+    margin: 0px 0px 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a {
+    outline: medium none;
+    transition: $transition-3;
+    text-decoration: none;
+}
+p a {
+    color: $primary-color;
+    text-decoration: none;
+    transition: $transition-3;
+}
+p a:hover {
+    color: $title-color;
+}
+.w-space {
+    white-space: nowrap;
+}
+p.text-secondary{
+    color: $title-color;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/*-------------------------------*/
+/* Blockquote */
+/*-------------------------------*/
+.blockquote {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 35px 50px;
+    font-size: 16px;
+    border-radius: $radius-5;
+}
+.blockquote i {
+    font-size: 6em;
+    margin-right: 30px;
+    color: $primary-color;
+}
+.blockquote p {
+    margin-bottom: 0;
+}
+
+
+/*==========================================================*/
+/* Responsive CSS */
+/*==========================================================*/
+@media only screen and (max-width: 767px) {
+    
+    h1 {font-size: 32px;}
+	h2 {font-size: 28px;}
+	h3 {font-size: 24px;}
+	h4 {font-size: 20px;}
+	h5 {font-size: 18px;}
+	h6 {font-size: 17px;}
+
+    .display-2{font-size: 3rem;}
+	.display-4 {font-size: 2rem;}
+
+    .blockquote {flex-wrap: wrap; padding: 30px;}
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    h1 {font-size: 30px;}
+	h2 {font-size: 24px;}
+	h3 {font-size: 22px;}
+}

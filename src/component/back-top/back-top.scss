@@ -1,0 +1,116 @@
+@import "../../assets/scss/variable.scss";
+
+/*----------------------------------------------------*/
+/* Back to Top */
+/*----------------------------------------------------*/
+.back-to-top {
+    background: $primary-color;
+    color: $white-color;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: inline-block;
+    visibility: hidden;
+    font-size: 20px;
+    color: $white-color;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-box-shadow: 0px 0px 12px rgba(2, 45, 98, 0.1);
+    box-shadow: 0px 0px 12px rgba(2, 45, 98, 0.1);
+    transition: $transition-3;
+    z-index: 9;
+}
+.back-to-top.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*----------------------------*/
+/* Hover Arrow */
+/*----------------------------*/
+.back-to-top:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    background: $white-color;
+    width: 3px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -2px;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+}
+.back-to-top:after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 15px;
+    color: $white-color;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -8px;
+    -webkit-transform: translateY(50px) rotateZ(45deg);
+    transform: translateY(50px) rotateZ(45deg);
+}
+
+/*----------------------------*/
+/* Hover Animation */
+/*----------------------------*/
+.back-to-top:hover,
+.back-to-top.auto {
+    color: rgba(255, 255, 255, 0);
+    -webkit-transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 1s 0.25 ease-in-out, color 0.25s ease-in-out 0.25s;
+    transition: width 0.5s ease-in-out, margin 0.5s ease-in-out, border-radius 1s 0.25 ease-in-out, color 0.25s ease-in-out 0.25s;
+}
+.back-to-top:hover:before,
+.back-to-top.auto:before {
+    -webkit-animation: lineUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+    animation: lineUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+}
+.back-to-top:hover:after,
+.back-to-top.auto:after {
+    -webkit-animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+    animation: tipUp 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+}
+
+/*----------------------------*/
+/* Key Animation */
+/*----------------------------*/
+@keyframes tipUp {
+    0% {
+      transform: translateY(50px) rotateZ(45deg);
+    }
+    100% {
+      transform: translateY(-70px) rotateZ(45deg);
+    }
+}
+@keyframes lineUp {
+    0% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(-70px);
+    }
+}

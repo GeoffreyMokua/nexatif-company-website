@@ -1,0 +1,122 @@
+@import "../../assets/scss/variable.scss";
+
+/*---------------------------------*/
+/* Our Clients */
+/*---------------------------------*/
+.our-clients.cl-size-full .our-clients-img img {
+    width: 100%;
+}
+.our-clients.cl-size-lg .our-clients-img img {
+    width: 180px;
+}
+.our-clients.cl-size-md .our-clients-img img {
+    width: 150px;
+}
+.our-clients.cl-size-sm .our-clients-img img {
+    width: 100px;
+}
+
+.our-clients.logo-grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: $transition-3;
+    transition: $transition-3;
+}
+.our-clients.logo-grayscale:hover {
+    -webkit-filter: inherit;
+    filter: inherit;
+}
+
+/*------------------------------------------*/
+/* Home 1 : Client Logos Section */
+/*------------------------------------------*/
+.our-clients-section {
+    margin-top: -3rem;
+    position: relative;
+    z-index: 1;
+  }
+  .brand-logos {
+    display: flex;
+    padding: 40px 30px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background: $secondary-color;
+    border-radius: $radius-5;
+  }
+  .brand-logos .client-title {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 13%;
+    flex: 0 0 13%;
+  }
+  .brand-logos .client-btn {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 18%;
+    flex: 0 0 18%;
+    position: relative;
+    z-index: 2;
+  }
+  .brand-logos .client-title .title {
+    position: relative;
+    z-index: 2;
+    color: $white-color;
+    margin-bottom: 0;
+  }
+  .brand-logos .our-clients-main {
+    display: inline-block;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66%;
+    flex: 0 0 66%;
+    overflow: hidden;
+    padding-right: 25px;
+    padding-left: 15px;;
+  }
+  .brand-logos .svg-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: $radius-5;
+  }
+  .brand-logos .svg-item::before {
+    position: absolute;
+    left: -49px;
+    width: 200px;
+    height: 200px;
+    background: $primary-color;
+    content: "";
+    top: -30px;
+    border-radius: 100%;
+  }
+  .brand-logos .svg-item::after {
+    position: absolute;
+    left: 80px;
+    width: 70px;
+    height: 70px;
+    background: $primary-color;
+    content: "";
+    bottom: -40px;
+    border-radius: 100%;
+  }
+
+
+/*==========================================================*/
+/* Responsive CSS */
+/*==========================================================*/
+@media only screen and (max-width: 1199px) {
+
+    .brand-logos .client-title {flex: 0 0 16%;}
+    .brand-logos .our-clients-main {flex: 0 0 62%;}
+    .brand-logos .client-btn {flex: 0 0 22%;}
+}
+
+@media only screen and (max-width: 991px) {
+
+    .brand-logos {display: block; padding: 0;}
+    .brand-logos .svg-item {display: none;}
+    .brand-logos .client-title {padding-left: 20px;  padding: 20px;  background: $primary-color;}
+    .brand-logos .our-clients-main {display: block; padding: 40px 30px;}
+    .brand-logos .client-btn {padding-left: 20px; padding-bottom: 20px;}
+}

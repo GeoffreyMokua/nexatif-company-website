@@ -1,0 +1,98 @@
+@import "../../assets/scss/variable.scss";
+
+/*--------------------------------------------*/
+/* Video Button */
+/*--------------------------------------------*/
+.video-popup {
+    position: relative;
+}
+.video-popup .video-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background: $primary-color;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.video-popup .video-btn:before {
+    content: "";
+    position: absolute;
+    z-index: -9;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: $primary-color;
+    border-radius: 50%;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+.video-popup .video-btn i {
+    font-size: 18px;
+    transition: $transition-3;
+}
+.video-popup .video-btn:hover i {
+    color: $title-color;;
+}
+
+/* Video Style 2 */
+.video-popup.video-style-2 .video-btn {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: translate(0px, 0px);
+}
+
+/* keyframes */
+@keyframes pulse-border {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
+}
+
+/*--------------------------------------------*/
+/* Video PopUp */
+/*--------------------------------------------*/
+.pgs-video-popup.modal-md {
+    max-width: 900px;
+}
+.pgs-video-popup .modal-header {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.pgs-video-popup .btn-close {
+    position: absolute;
+    right: 0;
+    top: -25px;
+    opacity: 0.8;
+    filter: brightness(0) invert(1);
+}
+.pgs-video-popup .modal-body {
+    padding: 0;
+    overflow: hidden;
+    background-image: url(../../assets/images/loader.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center center;
+    border-radius: $radius-5;
+}
+
+
+/*==========================================================*/
+/* Responsive CSS */
+/*==========================================================*/
+@media (max-width: 1199px) {
+
+}

@@ -1,0 +1,81 @@
+@import "../../assets/scss/variable.scss";
+
+/*---------------------------------*/
+/* Counter */
+/*---------------------------------*/
+.counter .counter-inner {
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.counter .counter-icon i {
+    color: $primary-color;
+    margin-right: 25px;
+    font-size: 70px;
+    line-height: 70px;
+}
+.counter .counter-content {
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+.counter .counter-content .counter-info {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: $title-font;
+    color: $title-color;
+}
+.counter .counter-content .counter-info label {
+    margin-left: 3px;
+}
+.counter .counter-content > label {
+    display: block;
+    color: $body-color;
+    margin-bottom: 0;
+}
+.counter .counter-content .counter-info + label {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/*---------------------------------*/
+/* Counter LG */
+/*---------------------------------*/
+.counter .counter-content .counter-info.lg {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+/*---------------------------------*/
+/* Counter Grey */
+/*---------------------------------*/
+.counter.counter-grey .counter-icon i {
+    color: #dfdfdf;
+}
+
+/*---------------------------------*/
+/* Counter Light */
+/*---------------------------------*/
+.counter.counter-light .counter-content .timer,
+.counter.counter-light .counter-content label {
+    color: $white-color;
+}
+
+
+/* Counter Primary Bg Box */
+.counter-primary-bg {
+    background-color: $primary-color;
+    padding: 33px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+.text-center .counter .counter-content .counter-info,
+.counter-primary-bg .counter-content .counter-info {
+    justify-content: center;
+}

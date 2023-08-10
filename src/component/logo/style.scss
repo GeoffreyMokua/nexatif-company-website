@@ -1,0 +1,27 @@
+@import '../../assets/scss/variable.scss';
+
+.cls-1 {
+    font-size: 24px;
+    fill: $title-color;
+    font-family: $title-font;
+    font-weight:bold;
+}
+.cls-2 {
+  fill: $primary-color;
+}
+.cls-3,
+.cls-4 {
+  fill-rule: evenodd;
+}
+.cls-3 {
+  fill: $primary-color;
+}
+.cls-4 {
+  fill: $white-color;
+}
+.cls-5 {
+  font-size: 24px;
+  fill: $white-color;
+  font-family: $title-font;
+  font-weight: bold;
+}

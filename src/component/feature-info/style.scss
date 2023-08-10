@@ -1,0 +1,31 @@
+@import "../../assets/scss/variable.scss";
+
+/*----------------------------------------------------*/
+/* Feature Info */
+/*----------------------------------------------------*/
+.feature-info .feature-info-description {
+    padding: 30px 0 15px;
+    background: $white-color;
+    position: relative;
+    transition: $transition-3;
+}
+.feature-info .feature-info-description .feature-info-title {
+    margin-bottom: 20px;
+}
+.feature-info .feature-info-description .feature-info-content {
+    margin-bottom: 5px;
+}
+.feature-info .feature-info-description .icon-btn {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    opacity: 0;
+}
+.feature-info:hover .feature-info-description {
+    margin-top: -40px;
+    padding-bottom: 55px;
+}
+.feature-info:hover .feature-info-description .icon-btn {
+    bottom: 0px;
+    opacity: 1;
+}

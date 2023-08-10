@@ -1,0 +1,20 @@
+@import "../../assets/scss/variable.scss";
+
+/*------------------------------------*/
+/* Error 404 */
+/*------------------------------------*/
+.error-404 .title {
+    margin-top: 30px;
+}
+
+.digit {
+  font-size: 230px;
+  font-weight: 600;
+}
+
+.fill-primary {
+  fill: $primary-color;
+}
+.fill-dark {
+  fill: $title-color;
+}

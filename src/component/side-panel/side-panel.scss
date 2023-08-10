@@ -1,0 +1,74 @@
+@import "../../assets/scss/variable.scss";
+
+/*------------------------------------------*/
+/* Header SidePanel Icon */
+/*------------------------------------------*/
+.side-panel-btn svg {
+    fill: $secondary-color;
+}
+.header-side-panel .side-panel-btn,
+.header-side-panel .side-panel-btn:hover,
+.header-side-panel .btn:first-child:active {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    box-shadow: none;
+    padding: 0 3px !important;
+}
+
+/*------------------------------------------*/
+/* Header SidePanel Off-Canvas */
+/*------------------------------------------*/
+.offcanvas.header-sidepanel {
+    width: 430px;
+    padding: 40px;
+}
+.offcanvas.header-sidepanel .offcanvas-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Social Social */
+.offcanvas.header-sidepanel .social-info {
+    width: 100%;
+}
+.offcanvas.header-sidepanel .social-info ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.offcanvas.header-sidepanel .social-info ul li {
+    padding: 10px 0;
+}
+.offcanvas.header-sidepanel .social-info ul li a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    color: $title-color;
+}
+.offcanvas.header-sidepanel .social-info ul li a i {
+    width: 22px;
+    color: $primary-color;
+}
+
+/* Social Info */
+.offcanvas.header-sidepanel .site-info {
+    border-top: 1px solid #e8e8e8;
+    width: 100%;
+    align-self: end;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.offcanvas.header-sidepanel .site-info span {
+    display: block;
+    font-size: 16px;
+    color: #969696;
+    margin-bottom: 10px;
+}
+.offcanvas.header-sidepanel .site-info p {
+    font-size: 28px;
+    font-weight: 700;
+    color: $title-color;
+}

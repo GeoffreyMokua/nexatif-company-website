@@ -1,0 +1,101 @@
+@import "../../assets/scss/variable.scss";
+
+/*----------------------------------------------------*/
+/* Team Style */
+/*----------------------------------------------------*/
+.team {
+  text-align: center;
+  position: relative;
+  transition: $transition-3;
+}
+.team:hover {
+  z-index: 3;
+}
+.team .team-bg {
+	background: $white-color;
+	position: absolute;
+	left: -10%;
+	top: -10%;
+	width: 120%;
+	height: 134%;
+	z-index: 1;
+	opacity: 0;
+	transition: $transition-3;
+	border-radius: $radius-5;
+	box-shadow: 5px 5px 24px 0px rgba(2, 45, 98, 0.1);
+}
+.team:hover .team-bg {
+	opacity: 1;
+}
+
+/*-------------------------*/
+/* Team Image */
+/*-------------------------*/
+.team .team-img {
+  overflow: hidden;
+}
+.team .team-img img {
+  position: relative;
+  z-index: 2;
+  transform: scale(1.0);
+	border-radius: 5px;
+  transition: $transition-3;
+}
+.team:hover .team-img img {
+  transform: scale(1.1);
+}
+
+/*-------------------------*/
+/* Team Info */
+/*-------------------------*/
+.team .team-info {
+  position: relative;
+  z-index: 2;
+	padding: 20px 0px 0px;
+}
+.team .team-info .team-name {
+	color: $title-color;
+	font-size: 14px;
+	font-weight: 600;
+  text-decoration: none;
+  transition: $transition-3;
+}
+.team .team-info .team-name:hover {
+  color: $primary-color;
+}
+.team .team-info p {
+	font-size: 12px;
+  line-height: 20px;
+	margin-bottom: 0;
+}
+
+/*-------------------------*/
+/* Social Info */
+/*-------------------------*/
+.team .team-info ul {
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-bottom: 0;
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: $transition-3;
+}
+.team:hover .team-info ul {
+	opacity: 1;
+	bottom: -40px;
+}
+.team .team-info ul li {
+	margin: 0 12px;
+}
+.team .team-info ul li a {
+	color: $title-color;
+  transition: $transition-3;
+}
+.team .team-info ul li a:hover {
+	color: $primary-color;
+}

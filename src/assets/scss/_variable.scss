@@ -1,0 +1,40 @@
+/*--------------------------------------------*/
+/* Typography Variable */
+/*--------------------------------------------*/
+$body-font: "Archivo", sans-serif;
+$title-font: "Archivo", sans-serif;
+
+/*--------------------------------------------*/
+/* Color Variable */
+/*--------------------------------------------*/
+$body-color: #777777;
+// $primary-color: #ef3139;
+// $primary-color: #20f592;
+$primary-color: #ef3139;
+$secondary-color: #022d62;
+$title-color: #022d62;
+$white-color: #ffffff;
+$dark-color: #121212;
+$light-color: #f6f6f6;
+$border-color: #eeeeee;
+
+/*--------------------------------------------*/
+/* Other Variable */
+/*--------------------------------------------*/
+// $section-padding: 100px;
+// $section-padding-sm: 70px;
+// $section-padding-xs: 50px;
+
+$radius-3: 3px;
+$radius-5: 5px;
+$radius-7: 7px;
+$radius-12: 12px;
+$radius-30: 30px;
+$radius-50: 50px;
+$radius-80: 80px;
+
+$transition: all 0.25s ease-in-out;
+$transition-2: all 0.2s ease-in-out;
+$transition-3: all 0.3s ease-in-out;
+$transition-4: all 0.4s ease-in-out;
+$transition-5: all 0.5s ease-in-out;

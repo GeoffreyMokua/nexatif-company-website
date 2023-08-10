@@ -1,0 +1,32 @@
+@import "../../assets/scss/variable.scss";
+
+.section-title {
+    margin-bottom: 50px;
+}
+.section-title .title span {
+    color: $primary-color;
+}
+.section-title p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: $dark-color;
+}
+
+/*------------------------------------*/
+/* Section Title Light */
+/*------------------------------------*/
+.section-title.section-title-light .title,
+.section-title.section-title-light p {
+    color: $white-color;
+}
+
+/*==========================================================*/
+/* Responsive CSS */
+/*==========================================================*/
+@media only screen and (max-width: 767px) {
+
+    .section-title {margin-bottom: 30px;}
+    .section-title p {font-size: 16px;}
+}

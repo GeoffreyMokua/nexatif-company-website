@@ -1,0 +1,155 @@
+@import "../../assets/scss/variable.scss";
+
+/*----------------------------------------------------*/
+/* Pricing Plan */
+/*----------------------------------------------------*/
+.pricing-table {
+    background-color: #ffffff;
+    padding: 50px 30px;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 24px 0px rgba(2, 45, 98, 0.1);
+    box-shadow: 5px 5px 24px 0px rgba(2, 45, 98, 0.1);
+    border-radius: $radius-5;
+}
+.pricing-table .pricing-header p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.pricing-table  .pricing-price {
+  display: inline-flex;
+  position: relative;
+  margin-top: 30px;
+}
+.pricing-table .pricing-price sup {
+  position: absolute;
+  top: 15px;
+  left: -20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: $title-color;
+}
+.pricing-table .pricing-price .price {
+  color: $title-color;
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 500;
+  margin: 0;
+  padding-right: 5px;
+}
+.pricing-table  .pricing-price span {
+  font-size: 14px;
+  font-weight: 600;
+  align-self: flex-end;
+}
+
+.pricing-table .pricing-features {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.pricing-table .pricing-features .features-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.pricing-table .pricing-features .features-list li {
+  padding: 6px 0;
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 15px;
+}
+.pricing-table .pricing-features .features-list li.inactive {
+    text-decoration: line-through;
+}
+
+/*-------------------------------*/
+/* Pricing Active */
+/*-------------------------------*/
+.pricing-table.active {
+  background: $secondary-color;
+}
+.pricing-table.active .pricing-price .price {
+  color: $primary-color;
+}
+.pricing-table.active .pricing-header .pricing-title,
+.pricing-table.active .pricing-header p,
+.pricing-table.active .pricing-price sup,
+.pricing-table.active .pricing-price span,
+.pricing-table.active .pricing-features .features-list li,
+.pricing-table.active .pricing-button .btn-primary-round {
+  color: $white-color;
+}
+
+/*-------------------------------*/
+/* Pricing Tabs */
+/*-------------------------------*/
+.pricing-tabs .nav-tabs {
+  justify-content: center;
+  border: none;
+  gap: 5px;
+  margin-bottom: 40px;
+}
+.pricing-tabs .nav-tabs .nav-item .nav-link {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background: $secondary-color;
+  color: $white-color;
+  padding: 10px 40px;
+  outline: none;
+  border: none;
+  border-radius: 0;
+}
+.pricing-tabs .nav-tabs .nav-item .nav-link.active {
+  background: $primary-color;
+  color: $white-color;
+}
+
+/*-------------------------------*/
+/* Pricing Swither */
+/*-------------------------------*/
+.pricing-tab-switcher .pricing-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.pricing-tab-switcher .pricing-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: $title-color;
+}
+.pricing-tab-switcher .pricing-switcher {
+  height: 32px;
+  width: 60px;
+  background: #ffffff;
+  display: inline-block;
+  border-radius: 30px;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  border: 2px solid $primary-color;
+}
+.pricing-tab-switcher .pricing-switcher:before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  background: $primary-color;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  transition: $transition-3
+}
+.pricing-tab-switcher .pricing-switcher.active:before {
+  left: calc(100% - 24px);
+}
+
+.pricing-tab-switcher .pricing-monthly,
+.pricing-tab-switcher .pricing-yearly {
+  display: none;
+}
+.pricing-tab-switcher .pricing-tab-item.monthly .pricing-monthly,
+.pricing-tab-switcher .pricing-tab-item.yearly .pricing-yearly {
+  display: block;
+}

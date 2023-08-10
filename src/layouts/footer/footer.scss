@@ -1,0 +1,78 @@
+@import "../../assets/scss/variable.scss";
+
+.site-footer {
+    font-size: 15px;
+}
+.site-footer .footer-main {
+    padding: 100px 0;
+    color: $title-color;
+}
+.site-footer hr {
+    border-top-color: #e8e8e8;
+    opacity: 0.9;
+}
+
+/*-----------------------*/
+/* Footer Main */
+/*-----------------------*/
+.site-footer .widget {
+    margin-bottom: 0px;
+}
+.site-footer .widget + .widget {
+    margin-top: 30px;
+}
+
+/*-----------------------*/
+/* Footer Copyright */
+/*-----------------------*/
+.footer-copyright {
+    background-color: #f6f6f6;
+    padding: 25px 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+.footer-copyright .copyright-text a {
+    color: $primary-color;
+}
+.footer-copyright .widget-social-info {
+    display: inline-block;
+}
+
+/*----------------------------------------*/
+/* Footer Style 2 */
+/*----------------------------------------*/
+.site-footer.footer-style-01 .footer-main {
+    padding: 60px 0;
+}
+
+/*----------------------------------------*/
+/* Footer Style 3 */
+/*----------------------------------------*/
+.footer-top-minus {
+    margin-top: -3rem;
+}
+.footer-top-minus .footer-inner {
+    margin-top: 3rem;
+}
+.site-footer.footer-style-03 .footer-main {
+    padding: 100px 0;
+}
+.site-footer.footer-style-03 .footer-copyright {
+    background-color: inherit;
+    padding: 0;
+    border: 0;
+}
+
+/*==========================================================*/
+/* Responsive CSS */
+/*==========================================================*/
+@media only screen and (max-width: 991px) {
+    .site-footer.footer-style-03 .footer-main {
+        padding: 70px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .site-footer.footer-style-03 .footer-main {
+        padding: 50px 0;
+    }
+}

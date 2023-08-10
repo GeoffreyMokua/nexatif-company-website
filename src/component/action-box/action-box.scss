@@ -1,0 +1,60 @@
+@import "../../assets/scss/variable.scss";
+
+/*------------------------------------*/
+/* Action Box 1 */
+/*------------------------------------*/
+.action-box {
+    background: $secondary-color;
+    padding: 60px;
+    text-align: center;
+    border-radius: $radius-5;
+}
+.action-box .action-box-title,
+.action-box p {
+    color: $white-color;
+    margin: 0;
+}
+.action-box p {
+    margin-bottom: 20px;
+}
+.action-box .action-box-title + p {
+    margin-top: 20px;
+}
+
+.action-box .btn-primary,
+.action-box .btn-primary-round {
+    display: inline-flex;
+}
+
+/*------------------------------------*/
+/* Action Box 2 */
+/*------------------------------------*/
+.action-box-mini {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 20px;
+}
+.action-box-mini p {
+    margin-bottom: 0;
+}
+
+/*------------------------------------*/
+/* Section Title Light */
+/*------------------------------------*/
+.action-box-mini.action-box-light p {
+    color: $white-color;
+}
+
+/*--------------------------------------------*/
+/* Responsive View */
+/*--------------------------------------------*/
+@media (max-width: 767px) {
+
+    .action-box {padding: 50px;}
+}
+
+@media (max-width: 575px) {
+    
+    .action-box {padding: 30px;}
+}

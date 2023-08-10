@@ -1,0 +1,174 @@
+@import "../../assets/scss/variable.scss";
+
+
+/*----------------------------------------------------*/
+/* Infobox : Alignment */
+/*----------------------------------------------------*/
+.infobox-default.left {
+    text-align: left;
+}
+.infobox-default.center {
+    text-align: center;
+}
+.infobox-default.right {
+    text-align: right;
+}
+.infobox-description {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+/*----------------------------------------------------*/
+/* Infobox : Default */
+/*----------------------------------------------------*/
+.infobox-default .infobox-icon {
+    margin-bottom: 1.7rem;
+}
+.infobox-default .infobox-icon i {
+    color: $primary-color;
+    font-size: 56px;
+}
+
+/*----------------------------------------------------*/
+/* Infobox : Style 2 */
+/*----------------------------------------------------*/
+.infobox-style-02 {
+	position: relative;
+	text-align: center;
+}
+.infobox-style-02 .infobox-icon {
+    display: inline-flex;
+	margin-bottom: 40px;
+}
+.infobox-style-02 .infobox-icon i {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f6f6f6;
+	color: #022d62;
+    font-size: 60px;
+	width: 144px;
+	height: 144px;
+	position: relative;
+	border-radius: 50%;
+    transition: $transition-2;
+}
+.infobox-style-02 .infobox-icon i:after {
+    content: "";
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 0, 0, 0);
+	border-top-color: #f6f6f6;
+	border-width: 9px;
+	margin-left: -9px;
+	margin-top: -1px;
+    transition: $transition-2;
+}
+.infobox-style-02:hover .infobox-icon i {
+	background: $primary-color;
+	color: $white-color;
+}
+.infobox-style-02:hover .infobox-icon i:after {
+	border-top-color: $primary-color;
+}
+.infobox-style-02 .infobox-description {
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
+.infobox-style-02:before {
+	content: "";
+	border-top: 2px dotted #022d62;
+	width: 52px;
+	display: inline-block;
+	position: absolute;
+	right: -26px;
+	top: 70px;
+}
+.infobox-style-02.none:before {
+	content: normal;
+}
+
+
+/*----------------------------------------------------*/
+/* Infobox : Style 3 */
+/*----------------------------------------------------*/
+.infobox-style-03 .infobox-top {
+	display: flex;
+	align-items: center;
+	position: inherit;
+	top: 0;
+}
+.infobox-style-03 .infobox-icon i {
+	color: $primary-color;
+	font-size: 60px;
+	line-height: 1;
+    margin-right: 20px;
+}
+.infobox-style-03 .infobox-title {
+    margin: 0;
+}
+.infobox-style-03 .infobox-description {
+    margin-top: 15px;;
+}
+
+/* Infobox Style */
+.infobox-style-03.light,
+.infobox-style-03.dark,
+.infobox-style-03.theme {
+	padding: 35px;
+	overflow: hidden;
+	position: relative;
+	-webkit-box-shadow: 5px 5px 24px 0px rgba(2, 45, 98, 0.1);
+	box-shadow: 5px 5px 24px 0px rgba(2, 45, 98, 0.1);
+	border-radius: $radius-5;
+	cursor: pointer;
+}
+.infobox.light {
+    background: $light-color;
+}
+.infobox.dark {
+    background: $secondary-color;
+}
+.infobox.theme {
+    background: $primary-color;
+}
+.infobox-style-03.dark,
+.infobox-style-03.dark .infobox-title {
+    color: #ffffff;
+}
+.infobox-style-03.theme,
+.infobox-style-03.theme .infobox-icon i,
+.infobox-style-03.theme .infobox-title {
+    color: #ffffff;
+}
+
+/* Icon SM */
+.infobox-style-03.icon-sm .infobox-icon {
+	display: flex;
+    align-items: center;
+}
+.infobox-style-03.icon-sm .infobox-icon i {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+/*==========================================================*/
+/* Responsive CSS */
+/*==========================================================*/
+@media only screen and (max-width: 991px) {
+
+	.infobox-style-02 .infobox-description {padding-right: 0; padding-left: 0;}
+	
+}
+
+@media only screen and (max-width: 767px) {
+
+	.infobox-style-02:before {content: normal;}
+	.infobox-style-02 .infobox-description {padding-right: 3rem; padding-left: 3rem;}
+}

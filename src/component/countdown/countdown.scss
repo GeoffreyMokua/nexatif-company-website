@@ -1,0 +1,51 @@
+@import "../../assets/scss/variable.scss";
+
+.countdown-wrapper {
+    display: inline-flex;
+    gap: 15px 15px;
+}
+.countdown-wrapper .time-section {
+    text-align: center;
+}
+.countdown-wrapper .time {
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: 700;
+    color: $primary-color;
+}
+.countdown-wrapper .time-text {
+    color: $title-color;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+}
+
+/*---------------------------------*/
+/* Size : Large */
+/*---------------------------------*/
+.countdown-wrapper.size-lg {
+    gap: 15px 30px;
+}
+.countdown-wrapper.size-lg .time {
+    font-size: 60px;
+    line-height: 58px;
+}
+.countdown-wrapper.size-lg .time-text {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/*---------------------------------*/
+/* Size : Small */
+/*---------------------------------*/
+.countdown-wrapper.size-sm  {
+    gap: 10px 8px;
+}
+.countdown-wrapper.size-sm .time {
+    font-size: 28px;
+    line-height: 28px;
+}
+.countdown-wrapper.size-sm .time-text {
+    font-size: 13px;
+}

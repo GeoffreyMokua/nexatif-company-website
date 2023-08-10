@@ -1,0 +1,231 @@
+@import "../../assets/scss/variable.scss";
+
+/*---------------------------------*/
+/* Primary Button */
+/*---------------------------------*/
+.btn-primary {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    background: $primary-color;
+    color: $white-color;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 17px 35px;
+    border-radius: $radius-50;
+    transition: $transition;
+}
+.btn-primary:hover {
+    background: $secondary-color;
+    color: $white-color;
+}
+  
+/*---------------------------------*/
+/* Secondary Button */
+/*---------------------------------*/
+.btn-secondary {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    background: $secondary-color;
+    color: $white-color;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 17px 35px;
+    border-radius: $radius-50;
+    transition: $transition;
+}
+.btn-secondary:hover {
+    background: $primary-color;
+    color: $white-color;
+}
+
+/*---------------------------------*/
+/* Light Button */
+/*---------------------------------*/
+.btn-light {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    background: #f6f6f6;
+    color: $title-color;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 17px 35px;
+    border-radius: $radius-50;
+    transition: $transition;
+}
+.btn-light:hover {
+    background: $primary-color;
+    color: $white-color;
+}
+
+/*---------------------------------*/
+/* Primary Button : Round */
+/*---------------------------------*/
+.btn-primary-round {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px 34px;
+    line-height: 1;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    color: $title-color;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.btn-primary-round:hover {
+    color: $white-color;
+}
+.btn-primary-round:before {
+    content: "";
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.9;
+    background: $primary-color;
+    transition: $transition-3;
+    border-radius: $radius-50;
+}
+.btn-primary-round:hover:before {
+    width: 100%;
+}
+
+/*---------------------------------*/
+/* Secondary Button : Round */
+/*---------------------------------*/
+.btn-secondary-round {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px 34px;
+    line-height: 1;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    color: $body-color;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.btn-secondary-round:hover {
+    color: $white-color;
+}
+.btn-secondary-round:before {
+    content: "";
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.9;
+    background: $secondary-color;
+    transition: $transition-3;
+    border-radius: $radius-50;
+}
+.btn-secondary-round:hover:before {
+    width: 100%;
+}
+
+/*---------------------------------*/
+/* Light Button : Round */
+/*---------------------------------*/
+.btn-light-round {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px 34px;
+    line-height: 1;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    color: $title-color;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+.btn-light-round:hover {
+    color: $title-color;
+}
+.btn-light-round:before {
+    content: "";
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.9;
+    background: #f6f6f6;
+    transition: $transition-3;
+    border-radius: $radius-50;
+}
+.btn-light-round:hover:before {
+    width: 100%;
+}
+
+/*---------------------------------*/
+/* Link */
+/*---------------------------------*/
+.btn-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    transition: $transition-3;
+    text-decoration: none;
+}
+.link-light {
+    color: $white-color !important;
+}
+.link-light:hover {
+    color: $primary-color !important;
+}
+.link-primary,
+.link-primary:hover {
+    color: $primary-color !important;
+}
+.link-secondary {
+    color: $secondary-color !important;
+}
+.link-secondary:hover {
+    color: $primary-color !important;
+}

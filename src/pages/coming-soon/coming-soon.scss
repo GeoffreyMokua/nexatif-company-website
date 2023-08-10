@@ -1,0 +1,52 @@
+@import "../../assets/scss/variable.scss";
+
+/*------------------------------------*/
+/* Coming Soon */
+/*------------------------------------*/
+.coming-soon-page {
+    background-color: #010510;
+}
+
+.site-content.coming-soon {
+    height: 100vh;
+}
+.coming-soon .title {
+    font-size: 80px;
+    line-height: 1.1;
+}
+.coming-soon .title span {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+.coming-soon .countdown-wrapper .time {
+    color: $white-color;
+}
+.coming-soon .countdown-wrapper .time-text {
+    color: $primary-color;
+}
+
+.newsletter-form .input-control {
+    display: flex;
+    gap: 10px;
+}
+
+/*==========================================================*/
+/* Responsive CSS */
+/*==========================================================*/
+@media only screen and (max-width: 991px) {
+
+    .coming-soon .title {font-size: 50px;}
+    .countdown-wrapper.size-lg {gap: 15px 20px;}
+    .countdown-wrapper.size-lg .time {font-size: 40px; line-height: 38px;}
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .coming-soon .title {font-size: 30px;}
+    .countdown-wrapper.size-lg {gap: 15px 10px;}
+    .countdown-wrapper.size-lg .time {font-size: 30px; line-height: 28px;}
+    .newsletter-form .input-control {flex-wrap: wrap; justify-content: center;}
+}

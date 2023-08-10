@@ -1,0 +1,134 @@
+@import "../../assets/scss/variable.scss";
+
+.category-item .category-title {
+    font-weight: 600;
+    margin-bottom: 0;
+    transition: $transition-3;
+}
+.category-item .category-icon i {
+    display: block;
+    color: $primary-color;
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 25px;
+    transition: $transition-3;
+}
+.category-item .category-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.category-item .category-list ul li:not(last-child){
+    margin-bottom: 15px;
+}
+.category-item .category-list ul li {
+    transition: $transition-3;
+}
+
+/*----------------------------------------------------*/
+/* Category Box : Style 1 */
+/*----------------------------------------------------*/
+.category-item.category-style1 .category-icon {
+    background: #ffffff;
+    padding: 40px 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 24px 0px rgba(2, 45, 98, 0.1);
+    box-shadow: 5px 5px 24px 0px rgba(2, 45, 98, 0.1);
+    border-radius: 5px;
+    transition: $transition-3;
+}
+.category-item.category-style1.active .category-icon,
+.category-item.category-style1:hover .category-icon {
+    background: $secondary-color;
+}
+.category-item.category-style1.active .category-title,
+.category-item.category-style1:hover .category-title {
+    color: #ffffff;
+}
+
+/*----------------------------------------------------*/
+/* Category Box : Style 2 */
+/*----------------------------------------------------*/
+.category-item.category-style2 {
+    padding: 60px 20px 30px;
+    border-radius: 5px;
+    text-align: center;
+    transform: scale(0.98);
+    transition: $transition-3;
+}
+.category-item.category-style2 .category-icon {
+    margin-bottom: 30px;
+}
+.category-item.category-style2.active,
+.category-item.category-style2:hover {
+    background: $secondary-color;
+    transform: scale(1);
+    -webkit-box-shadow: 5px 5px 24px 0px rgba(2, 45, 98, 0.1);
+    box-shadow: 5px 5px 24px 0px rgba(2, 45, 98, 0.1);
+}
+.category-item.category-style2.active .category-title,
+.category-item.category-style2:hover .category-title {
+    color: #ffffff;
+}
+.category-item.category-style2.active .category-list ul li,
+.category-item.category-style2:hover .category-list ul li{
+    color: #ffffff;
+}
+
+/*----------------------------------------------------*/
+/* Category Grid List */
+/*----------------------------------------------------*/
+.category-grid-style {
+    display: grid;
+    grid-gap: 30px 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.category-grid-style .category-list-item {
+    display: block;
+    border-bottom: 1px solid #eeeeee;
+}
+.category-grid-style .category-list-item a,
+.category-grid-style .category-list-item span {
+    display: block;
+    font-size: 18px;
+    color: $title-color;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    transition: $transition-3;
+}
+.category-grid-style .category-list-item a:hover {
+    color: $primary-color;
+}
+
+/*=====================================================*/
+/* Responsive CSS */
+/*=====================================================*/
+@media only screen and (max-width: 991px) {
+    .category-grid-style .category-list-item a,
+    .category-grid-style .category-list-item span {
+        padding-bottom: 25px;
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .category-grid-style {
+        grid-gap: 20px 30px;
+    }
+    .category-grid-style .category-list-item a,
+    .category-grid-style .category-list-item span {
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .category-grid-style {
+        grid-gap: 15px 30px;
+    }
+    .category-grid-style .category-list-item a,
+    .category-grid-style .category-list-item span {
+        padding-bottom: 15px;
+    }
+}

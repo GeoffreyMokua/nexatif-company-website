@@ -1,0 +1,160 @@
+@import "../../assets/scss/variable.scss";
+
+/*----------------------------------------------------*/
+/* Feature Step */
+/*----------------------------------------------------*/
+.feature-step .feature-step-img {
+    margin-bottom: 30px;
+}
+.feature-step .feature-step-img img {
+    border-radius: $radius-5;
+}
+.feature-step .feature-step-info {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #eeeeee;
+    position: relative;
+}
+.feature-step .feature-step-info span {
+    color: $title-color;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: bold;
+    opacity: 0.1;
+    position: relative;
+    transition: $transition-3;
+}
+.feature-step:hover .feature-step-info span {
+    color: $primary-color;
+    opacity: 0.5;
+}
+.feature-step .feature-step-info .feature-step-title {
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.feature-step .feature-step-info:after {
+    content: "";
+    height: 2px;
+    background: $title-color;
+    width: 0%;
+    position: absolute;
+    bottom: -2px;
+    transition: $transition-3;
+}
+.feature-step:hover .feature-step-info:after {
+    width: 100%;
+}
+.feature-step .feature-step-content {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+/*--------------------------------*/
+/* Feature Step : Light */
+/*--------------------------------*/
+.feature-step.feature-step-light .feature-step-info .feature-step-title {
+    color: $white-color;
+}
+.feature-step.feature-step-light .feature-step-info span {
+    color: $white-color;
+    opacity: 0.1;
+}
+.feature-step.feature-step-light:hover .feature-step-info span {
+    color: $primary-color;
+    opacity: 0.5;
+}
+.feature-step.feature-step-light .feature-step-info {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+.feature-step.feature-step-light .feature-step-info:after {
+    background: $white-color;
+}
+.feature-step.feature-step-light .feature-step-content {
+    color: $white-color;
+}
+
+/*----------------------------------------------------*/
+/* Feature Timeline */
+/*----------------------------------------------------*/
+.feature-timeline  {
+    display: flex;
+    padding-bottom: 70px;
+    position: relative;
+}
+.feature-timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 38px;
+    height: 100%;
+    width: 2px;
+    background: #f6f6f6;
+}
+.feature-timeline:last-child {
+    padding-bottom: 0px;
+}
+.feature-timeline:last-child:before  {
+    content: normal;
+}
+
+.feature-timeline .feature-info-number .feature-timeline-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f6f6;
+    color: $title-color;
+    font-size: 24px;
+    width: 74px;
+    height: 74px;
+    margin-right: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: relative;
+    transition: $transition-3;
+}
+.feature-timeline .feature-info-number .feature-timeline-number:after {
+    content: " ";
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-left-color: #f6f6f6;
+    border-width: 6px;
+    margin-top: -6px;
+    margin-left: -1px;
+    transition: $transition-3;
+}
+
+.feature-timeline .feature-info-content {
+    margin-top: 28px;
+}
+.feature-timeline .feature-info-content .feature-timeline-title {
+    font-weight: 700;
+    line-height: 22px;
+}
+.feature-timeline .feature-info-content .feature-timeline-content {
+    margin-bottom: 0;
+}
+
+.feature-timeline:hover .feature-info-number .feature-timeline-number {
+    background: $primary-color;
+    color: $white-color; 
+}
+.feature-timeline:hover .feature-info-number .feature-timeline-number:after {
+    border-left-color: $primary-color;
+}
+
+/*--------------------------------*/
+/* Feature Timeline : Light */
+/*--------------------------------*/
+.feature-timeline.feature-timeline-light .feature-info-content .feature-timeline-title,
+.feature-timeline.feature-timeline-light .feature-info-content .feature-timeline-content {
+    color: $white-color; 
+}

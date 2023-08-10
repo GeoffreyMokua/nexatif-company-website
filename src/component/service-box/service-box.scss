@@ -1,0 +1,66 @@
+@import "../../assets/scss/variable.scss";
+
+
+.service-box-style-01 {
+  padding: 45px;
+  background: #f6f6f6;
+  border-radius: 5px;
+}
+.service-box-style-01 .service-box-content p {
+  margin-bottom: 0;
+}
+
+/*----------------------------------------------------*/
+/* Feature Box : 2 */
+/*----------------------------------------------------*/
+.service-box-style-02 {
+  padding: 45px;
+  background: #f6f6f6;
+  position: relative;
+  overflow: hidden;
+  border-radius: $radius-5;
+  transition: $transition-3;
+}
+.service-box-style-02:hover {
+  background: $secondary-color;
+}
+
+.service-box-style-02 .service-box-content .service-box-title {
+  position: absolute;
+  top: 45px;
+  transition: $transition-3;
+}
+.service-box-style-02:hover .service-box-content .service-box-title {
+  position: absolute;
+  top: -55px;
+}
+
+.service-box-style-02 .service-box-content p {
+  margin-top: 50px;
+  margin-bottom: 0;
+  transition: $transition-3;
+}
+.service-box-style-02:hover .service-box-content p {
+  color: $white-color;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.service-box-style-02 .service-box-content .service-box-link {
+  position: absolute;
+  bottom: -55px;
+  color: $white-color;
+  transition: $transition-3;
+}
+.service-box-style-02:hover .service-box-content .service-box-link {
+  bottom: 35px;
+}
+
+/*==========================================================*/
+/* Responsive CSS */
+/*==========================================================*/
+@media only screen and (max-width: 991px) {
+
+  .service-box-style-01 {padding: 25px;}
+  
+}

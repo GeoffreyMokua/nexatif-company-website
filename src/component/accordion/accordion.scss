@@ -1,0 +1,90 @@
+@import "../../assets/scss/variable.scss";
+
+/*------------------------------------*/
+/* Accordion */
+/*------------------------------------*/
+.accordion-pgs .accordion-button {
+	background: $secondary-color;
+	display: flex;
+	font-size: 18px;
+	color: $white-color;
+	padding: 32px 30px 32px 62px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	font-weight: normal;
+	position: relative;
+	border-radius: 5px;
+	font-weight: 500;
+    border: none;
+    box-shadow: none;
+}
+.accordion-pgs .accordion-button:not(.collapsed) {
+	background: $primary-color;
+	color: $white-color;
+	border: none;
+    box-shadow: none;
+}
+
+.accordion-pgs .accordion-item {
+    border: none;
+    margin-bottom: 10px;      
+}
+.accordion-pgs .accordion-item:last-child {
+    margin-bottom: 0;
+}
+.accordion-pgs .accordion-item .accordion-body {
+    padding: 35px 45px 45px 62px;
+	color: $body-color;
+}
+.accordion-pgs .accordion-item:last-child .accordion-body {
+    padding-bottom: 0;
+}
+
+/* Accordion Arrow */
+.accordion-pgs .accordion-header .accordion-button:after {
+	content: "\f062";
+	margin-left: auto;
+	font-family: "Font Awesome 5 Free";
+	font-weight: bold;
+	width: auto;
+    background: none;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.accordion-pgs .accordion-header .accordion-button:not(.collapsed):after {
+	background: none;
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+/* Accordion List */
+.accordion-pgs .accordion-item .ckeck-list {
+	margin-top: 30px;
+}
+.accordion-pgs .accordion-item .ckeck-list li {
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 15px;
+	line-height: 20px;
+	color: #000000;
+}
+.accordion-pgs .accordion-item .ckeck-list li i {
+	color: $primary-color;
+	padding-right: 10px;
+}
+
+/*--------------------------------------------*/
+/* Responsive View */
+/*--------------------------------------------*/
+@media (max-width: 767px) {
+
+	.accordion-pgs .accordion-button {padding: 22px 20px 22px 22px;}
+	.accordion-pgs .accordion-item .accordion-body {padding: 25px 25px 35px 52px;}
+}
+
+@media (max-width: 575px) {
+    
+	.accordion-pgs .accordion-button {font-size: 16px; padding: 20px; line-height: 22px;}
+	.accordion-pgs .accordion-item .accordion-body {padding: 20px;}
+}

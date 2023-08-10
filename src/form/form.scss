@@ -1,0 +1,96 @@
+@import "../assets/scss/variable.scss";
+
+.pgs-form.form-control {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+}
+.pgs-form .row-gap {
+    gap: 15px 0;
+}
+.pgs-form .input-control {
+    width: 100%;
+}
+.pgs-form .checkbox-control {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+.pgs-form .input-control label {
+    display: none;
+    margin-bottom: 10px;
+}
+.pgs-form .input-control:last-child {
+    margin-bottom: 0;
+}
+.pgs-form .input-control input,
+.pgs-form .input-control select,
+.pgs-form .input-control textarea {
+    width: 100%;
+    padding: 12px 20px;
+    background: #f6f6f6;
+    outline: none;
+    border-radius: $radius-5;
+    border: 1px solid #eeeeee;
+    transition: $transition-3;
+}
+.pgs-form .input-control input:focus,
+.pgs-form .input-control select:focus,
+.pgs-form .input-control textarea:focus {
+    border-color: $primary-color;
+    background: $white-color;
+}
+
+.pgs-form .input-control .btn-primary-round {
+    padding: 17px 35px;
+    background: none;
+    border: none;
+}
+.pgs-form .input-control [type="submit"] i {
+    padding-left: 7px;
+}
+
+/*------------------------------------------*/
+/* Form Light */
+/*------------------------------------------*/
+.pgs-form.form-light .input-control input,
+.pgs-form.form-light .input-control select,
+.pgs-form.form-light .input-control textarea {
+    color: #ffffff;
+    padding: 10px 0;
+    border: none;
+    background: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.pgs-form.form-light .input-control input:focus,
+.pgs-form.form-light .input-control select:focus,
+.pgs-form.form-light .input-control textarea:focus {
+    border-bottom-color: $primary-color;
+}
+
+.pgs-form.form-light .input-control input::placeholder,
+.pgs-form.form-light .input-control select::placeholder,
+.pgs-form.form-light .input-control textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.5);
+}
+.pgs-form.form-light .input-control input:-ms-input-placeholder,
+.pgs-form.form-light .input-control select:-ms-input-placeholder,
+.pgs-form.form-light .input-control textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.5);
+}
+.pgs-form.form-light .input-control input::-ms-input-placeholder,
+.pgs-form.form-light .input-control select::-ms-input-placeholder,
+.pgs-form.form-light .input-control textarea::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*------------------------------------------*/
+/* Form Validation */
+/*------------------------------------------*/
+.input-control {position: relative;}
+.input-control .error {position: absolute; top: 15px; right: 15px; font-size: 14px; color: red;}
+.form-control .checkbox-error {position: relative; left: 25px; top: -12px; font-size: 14px; color: red;}
+.form-control .success-message {background: #d1e7dd; color: #0a3622; padding: 15px 20px; border: 1px solid #a3cfbb; border-radius: 3px; box-shadow: 0 3px 15px rgba(0,0,0,0.07);}

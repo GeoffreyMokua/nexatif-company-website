@@ -1,0 +1,77 @@
+@import "../../assets/scss/variable.scss";
+
+.topbar {
+  padding: 10px 30px;
+  border-bottom: 1px solid rgba(2, 45, 98, 0.1);
+}
+.topbar-inner {
+  display: flex;
+
+  .top-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    gap: 5px 25px;
+    list-style-type: none;
+  }
+
+  .top-info li i {
+    margin-right: 10px;
+    color: $primary-color;
+  }
+
+  .top-info li a {
+    text-decoration: none;
+    font-family: $body-font;
+    font-weight: 600;
+    font-size: 14px;
+    color: $title-color;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.topbar-inner .top-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 5px 25px;
+  margin-left: auto;
+  list-style-type: none;
+
+  li a {
+    font-family: $body-font;
+    font-weight: 600;
+    font-size: 14px;
+    color: $title-color;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+/*==========================================================*/
+/* Responsive CSS */
+/*==========================================================*/
+@media only screen and (max-width: 1199px) {
+  .topbar {padding: 10px 25px;}
+}
+
+@media only screen and (max-width: 992px) {
+  .topbar {padding-left: 30px; padding-right: 30px;}
+}
+
+@media only screen and (max-width: 767px) {
+  .topbar {padding-left: 10px; padding-right: 10px;}
+  .topbar-inner {flex-wrap: wrap;}
+  .topbar-inner .top-info,
+  .topbar-inner .top-menu {width: 100%; justify-content: center; text-align: center;}
+}
