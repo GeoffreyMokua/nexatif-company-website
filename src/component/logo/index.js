@@ -14,7 +14,7 @@ function Logo(props) {
           className="cls-1"
           transform="translate(50.922 30.025) scale(1.114)"
         >
-          ONIX
+          TRONIX
         </text>
         {props.theme === 'logo-light' && (
           <text
@@ -22,7 +22,7 @@ function Logo(props) {
             className="cls-5"
             transform="translate(50.922 30.025) scale(1.114)"
           >
-            ONIX
+            TRONIX
           </text>
         )}
         <g id="icon">
