@@ -14,13 +14,13 @@ function TopBar(props) {
             <ul className="top-info">
               <li>
                 <Link to="mailto:letstalk@hisoft.com">
-                  <i className="far fa-envelope"></i>letstalk@hisoft.com
+                  <i className="far fa-envelope"></i>letstalk@tronix.com
                 </Link>
               </li>
               <li>
                 <Link to="/contact">
-                  <i className="fas fa-map-marker-alt"></i>6580 Allison Turnpike
-                  Creminfort, AL 32808
+                  <i className="fas fa-map-marker-alt"></i>Nairobi Kenya
+                  Monrovia, Street
                 </Link>
               </li>
             </ul>
