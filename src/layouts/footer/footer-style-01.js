@@ -58,7 +58,7 @@ function FooterStyle01() {
                 <Col sm={6} lg={4}>
                   <ContactInfo
                     theme="contact-info-style-02"
-                    title="Contact hi-Soft"
+                    title="Contact Tronix"
                   />
                 </Col>
               </Row>
