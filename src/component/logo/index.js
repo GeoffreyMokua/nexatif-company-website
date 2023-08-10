@@ -5,24 +5,24 @@ function Logo(props) {
     <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="143"
+        width="148"
         height="41"
         viewBox="0 0 143 41"
       >
         <text
-          id="hi-Soft"
+          id="TRONIX"
           className="cls-1"
           transform="translate(50.922 30.025) scale(1.114)"
         >
-          hi-Soft
+          ONIX
         </text>
         {props.theme === 'logo-light' && (
           <text
-            id="hi-Soft"
+            id="TRONIX"
             className="cls-5"
             transform="translate(50.922 30.025) scale(1.114)"
           >
-            hi-Soft
+            ONIX
           </text>
         )}
         <g id="icon">
