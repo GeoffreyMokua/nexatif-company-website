@@ -44,14 +44,17 @@ const Header2 = (props) => {
                         <li>
                           <i className="flaticon-world"></i>
                           <span>
-                            <label className="d-block">Fairground St.</label>
-                            <label className="d-block"> North Bergen, NJ</label>
+                            <label className="d-block">Nairobi, Kenya</label>
+                            <label className="d-block">
+                              {' '}
+                              Monrovia Street, MS
+                            </label>
                           </span>
                         </li>
                         <li>
                           <i className="flaticon-order"></i>
                           <span>
-                            <label className="d-block">0011 234 56789</label>
+                            <label className="d-block">0790482160</label>
                             <label className="d-block">
                               Mon-Fri: 8:00 am - 06:30 pm
                             </label>
@@ -61,11 +64,9 @@ const Header2 = (props) => {
                           <i className="flaticon-rocket"></i>
                           <span>
                             <label className="d-block">
-                              letstalk@hisoft.com
+                              letstalk@tronix.com
                             </label>
-                            <label className="d-block">
-                              Melbourne Australia
-                            </label>
+                            <label className="d-block">Nairobi Kenya</label>
                           </span>
                         </li>
                       </ul>

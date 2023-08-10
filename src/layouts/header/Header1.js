@@ -27,10 +27,7 @@ const Header1 = (props) => {
           isSticky ? 'header-sticky' : ''
         } ${props.className || ''}`}
       >
-        <TopBar
-          className="d-none d-md-block"
-          containerSize="container-fluid"
-        />
+        <TopBar className="d-none d-md-block" containerSize="container-fluid" />
         <div className="header-wrapper">
           <Container fluid>
             <div className="header-inner">
@@ -56,7 +53,7 @@ const Header1 = (props) => {
                         <i className="icon fa-solid fa-phone"></i>
                         <div className="call-info">
                           <p>Have Any Questions? </p>
-                          <span>+(704) 279-1249</span>
+                          <span>+254790482160</span>
                         </div>
                       </div>
                     </li>
