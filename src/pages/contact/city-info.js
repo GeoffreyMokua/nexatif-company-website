@@ -20,7 +20,7 @@ function CityInfo() {
           <h6 className="mb-0">214 West Arnold St. New York, NY 10002</h6>
         </Col>
         <Col sm={6} className="mb-5">
-          <img className="img-fluid mb-4" src={Frankfurt} alt="Shanghai" />
+          <img className="img-fluid mb-4" src={Mombasa} alt="Shanghai" />
           <h4>Frankfurt</h4>
           <h6 className="mb-0">Fairground St. North Bergen, NJ</h6>
         </Col>
