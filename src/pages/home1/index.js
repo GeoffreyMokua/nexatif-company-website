@@ -202,7 +202,7 @@ function HomeIndex() {
                     <div className="me-4">
                       <p className="mb-0">Established in</p>
                       <h3 className="display-2 fw-bold text-primary mb-0">
-                        2010
+                        2023
                       </h3>
                     </div>
                     <div className="me-3">
