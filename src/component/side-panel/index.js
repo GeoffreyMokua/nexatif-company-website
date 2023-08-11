@@ -60,8 +60,8 @@ function SidePanel(props) {
                         </ul>
                     </div>
                     <div className="site-info">
-                        <span>letstalk@hisoft.com</span>
-                        <p className="mb-0">+(704) 279-1249</p>
+                        <span>letstalk@tronix.com</span>
+                        <p className="mb-0">+(254) 90482160</p>
                     </div>
                 </Offcanvas.Body>
             </Offcanvas>
