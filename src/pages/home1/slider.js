@@ -6,8 +6,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Thumbs, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 // Site Data
-import BannerImg1 from '../../assets/images/banner/banner-img1.webp';
-import BannerImg2 from '../../assets/images/banner/banner-img2.webp';
+import BannerImg1 from '../../assets/images/banner/banner-img1.jpg';
+import BannerImg2 from '../../assets/images/banner/banner-img2.jpg';
 
 function Slider() {
   return (
@@ -59,7 +59,7 @@ function Slider() {
             <div className="banner-item">
               <div className="banner-content">
                 <h2 className="title">Award winning digital agency</h2>
-                <h6>We're Hi-soft. We help drive change with technology.</h6>
+                <h6>We're Tronix. We help drive change with technology.</h6>
                 <Link className="btn-secondary" to="/about-us">
                   View Our Solution <i className="fas fa-arrow-right"></i>
                 </Link>
