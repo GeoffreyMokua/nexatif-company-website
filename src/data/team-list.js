@@ -1,7 +1,7 @@
-import teamImg1 from '../assets/images/team/team-01.webp';
-import teamImg2 from '../assets/images/team/team-02.webp';
-import teamImg3 from '../assets/images/team/team-03.webp';
-import teamImg4 from '../assets/images/team/team-04.webp';
+import teamImg1 from '../assets/images/team/team-01.jpg';
+import teamImg2 from '../assets/images/team/team-02.jpg';
+import teamImg3 from '../assets/images/team/team-03.jpg';
+import teamImg4 from '../assets/images/team/team-04.jpg';
 import teamImg5 from '../assets/images/team/team-05.webp';
 import teamImg6 from '../assets/images/team/team-06.webp';
 import teamImg7 from '../assets/images/team/team-07.webp';
@@ -15,7 +15,7 @@ const TeamList = [
   {
     id: 1,
     image: teamImg1,
-    name: 'Aaron Sharp',
+    name: 'Geoffrey Nyakundi',
     position: 'Chief People Officer',
     email: 'info@example.com',
     phone: '+101 800 555 45',

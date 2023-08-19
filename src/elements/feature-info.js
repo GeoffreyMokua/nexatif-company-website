@@ -6,9 +6,9 @@ import Col from 'react-bootstrap/Col';
 import PageHeader from '../layouts/page-header/PageHeader';
 import FeatureInfo from '../component/feature-info';
 import Services from '../component/services/services-item';
-import aboutImage1 from '../../src/assets/images/blog/blog-img1.webp';
-import aboutImage2 from '../../src/assets/images/blog/blog-img2.webp';
-import aboutImage3 from '../../src/assets/images/blog/blog-img3.webp';
+import aboutImage1 from '../../src/assets/images/blog/01.jpg';
+import aboutImage2 from '../../src/assets/images/blog/02.jpg';
+import aboutImage3 from '../../src/assets/images/blog/03.jpg';
 
 function ElementsFeatureInfo(props) {
   return (

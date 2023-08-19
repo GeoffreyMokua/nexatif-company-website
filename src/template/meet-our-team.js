@@ -1,7 +1,7 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from '../component/button/button';
-import aboutImage from '../../src/assets/images/about/02.webp';
+import aboutImage from '../../src/assets/images/about/02.jpg';
 
 import TeamList from '../data/team-list';
 import TeamStyle1 from '../component/team/team-item';

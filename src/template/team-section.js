@@ -1,8 +1,8 @@
 import Col from 'react-bootstrap/Col';
 import SectionTitle from '../component/section-title/section-title';
-import aboutImage1 from '../../src/assets/images/about/05.webp';
-import aboutImage2 from '../../src/assets/images/about/06.webp';
-import aboutImage3 from '../../src/assets/images/about/07.webp';
+import aboutImage1 from '../../src/assets/images/about/01.jpg';
+import aboutImage2 from '../../src/assets/images/about/03.jpg';
+import aboutImage3 from '../../src/assets/images/about/04.jpg';
 import Counter from '../component/counter/counter';
 import Button from '../component/button/button';
 

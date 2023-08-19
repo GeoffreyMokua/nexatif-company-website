@@ -216,7 +216,7 @@ function HomeIndex() {
               </Row>
               <Row className="align-items-center">
                 <Col lg={12}>
-                  <TabSection />
+                  {/* <TabSection /> */}
                 </Col>
               </Row>
             </Container>

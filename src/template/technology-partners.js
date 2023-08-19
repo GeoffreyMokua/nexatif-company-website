@@ -1,7 +1,7 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from '../component/button/button';
-import aboutImage from '../../src/assets/images/about/03.webp';
+import aboutImage from '../../src/assets/images/about/03.jpg';
 import ClientLogoList from '../data/client-logo-list';
 import ClientLogo from '../component/client-logo';
 

@@ -1,6 +1,6 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import aboutImage from '../../src/assets/images/about/01.webp';
+import aboutImage from '../../src/assets/images/about/01.jpg';
 import { InfoBox3 } from '../component/infobox';
 
 function Missionvision() {
