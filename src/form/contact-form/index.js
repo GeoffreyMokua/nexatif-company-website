@@ -148,7 +148,7 @@ function ContactForm() {
                 checked={inputs['Term of Service'] || false}
                 onChange={handleChange}
               />{' '}
-              I agree to talk about my project with Tronix
+              I agree to talk about my project with Nexatif
             </div>
             {errors['Term of Service'] && (
               <span className="checkbox-error">

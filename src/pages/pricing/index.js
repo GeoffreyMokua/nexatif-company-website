@@ -60,7 +60,7 @@ function Pricing() {
               <Row>
                 <SectionTitle
                   extraClass="section-title-light text-center"
-                  title="How Hi-Soft assist your business"
+                  title="How nexatif assist your business"
                 />
                 <BusinessInfo />
               </Row>

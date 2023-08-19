@@ -10,19 +10,19 @@ function Logo(props) {
         viewBox="0 0 143 41"
       >
         <text
-          id="TRONIX"
+          id="NEXATIF"
           className="cls-1"
           transform="translate(50.922 30.025) scale(1.114)"
         >
-          TRONIX
+          NEXATIF
         </text>
         {props.theme === 'logo-light' && (
           <text
-            id="TRONIX"
+            id="NEXATIF"
             className="cls-5"
             transform="translate(50.922 30.025) scale(1.114)"
           >
-            TRONIX
+            NEXATIF
           </text>
         )}
         <g id="icon">

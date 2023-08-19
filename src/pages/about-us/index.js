@@ -27,7 +27,7 @@ function AboutUs() {
     <>
       <div className="site-content">
         <PageHeader
-          title="About Tronix"
+          title="About Nexatif"
           description="Our Expertise. Know more about what we do"
           breadCrumbItems={[
             { label: 'Home', path: '/' },
@@ -42,7 +42,7 @@ function AboutUs() {
                 <Col lg={9}>
                   <SectionTitle
                     extraClass="text-center"
-                    title="Established in 2023 Tronix has been offering world-class information technology."
+                    title="Established in 2023 Nexatif has been offering world-class information technology."
                     content="Positive pleasure-oriented goals are much more powerful motivators than negative fear-based ones. Although each is successful separately, the right combination of both is the most powerful motivational force known to humankind."
                   />
                 </Col>

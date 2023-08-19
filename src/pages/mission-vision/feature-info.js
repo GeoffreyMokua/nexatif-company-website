@@ -8,9 +8,9 @@ import FeatureInfo from '../../component/feature-info';
 import Services from '../../component/services/services-item';
 
 // Site Data
-import aboutImage1 from '../../assets/images/blog/blog-img1.webp';
-import aboutImage2 from '../../assets/images/blog/blog-img2.webp';
-import aboutImage3 from '../../assets/images/blog/blog-img3.webp';
+import aboutImage1 from '../../assets/images/blog/blog-img1.jpg';
+import aboutImage2 from '../../assets/images/blog/blog-img2.jpg';
+import aboutImage3 from '../../assets/images/blog/blog-img3.jpg';
 
 function FeatureInfoSection() {
   return (
