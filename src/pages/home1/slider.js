@@ -6,8 +6,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Thumbs, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 // Site Data
-import BannerImg1 from '../../assets/images/banner/banner-img1.jpg';
-import BannerImg2 from '../../assets/images/banner/banner-img2.jpg';
+import BannerImg1 from '../../assets/images/banner/ban1.jpg';
+import BannerImg2 from '../../assets/images/banner/ban2.jpg';
 
 function Slider() {
   return (
