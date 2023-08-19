@@ -1,10 +1,10 @@
-import caseStudyImg1 from '../assets/images/case-study/case-study-img1.jpg';
-import caseStudyImg2 from '../assets/images/case-study/case-study-img2.jpg';
-import caseStudyImg3 from '../assets/images/case-study/case-study-img3.jpg';
-import caseStudyImg4 from '../assets/images/case-study/case-study-img4.jpg';
-import caseStudyImg5 from '../assets/images/case-study/case-study-img5.webp';
-import caseStudyImg6 from '../assets/images/case-study/case-study-img6.webp';
-import caseStudyImg7 from '../assets/images/case-study/case-study-img7.webp';
+import caseStudyImg1 from '../assets/images/case-study/case1.jpg';
+import caseStudyImg2 from '../assets/images/case-study/case2.jpg';
+import caseStudyImg3 from '../assets/images/case-study/case3.jpg';
+import caseStudyImg4 from '../assets/images/case-study/case4.jpg';
+import caseStudyImg5 from '../assets/images/case-study/cas5.jpg';
+import caseStudyImg6 from '../assets/images/case-study/case6.jpg';
+import caseStudyImg7 from '../assets/images/case-study/case7.jpg';
 
 const CaseStudyList = [
   {
