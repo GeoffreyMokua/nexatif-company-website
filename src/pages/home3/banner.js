@@ -27,10 +27,10 @@ function Banner() {
             <Col xl={8} lg={10} className="mt-lg-5 pt-lg-4">
               <div className="d-md-flex align-item-center text-center text-md-start">
                 <h2 className="text-white fw-normal">
-                  We're Hi-soft. We help drive change with technology.
+                  We're Nexatif. We help drive change with technology.
                 </h2>
                 <div className="banner-logo">
-                  <span>hi-soft</span>
+                  <span>nexatif</span>
                 </div>
               </div>
               <ul className="banner-list">

@@ -1,13 +1,13 @@
-import authorImg1 from '../assets/images/avatar/01.webp';
-import authorImg2 from '../assets/images/avatar/02.webp';
-import authorImg3 from '../assets/images/avatar/03.webp';
-import authorImg4 from '../assets/images/avatar/04.webp';
-import authorImg5 from '../assets/images/avatar/05.webp';
-import authorImg6 from '../assets/images/avatar/06.webp';
-import authorImg7 from '../assets/images/avatar/07.webp';
-import authorImg8 from '../assets/images/avatar/08.webp';
-import authorImg9 from '../assets/images/avatar/09.webp';
-import authorImg10 from '../assets/images/avatar/10.webp';
+import authorImg1 from '../assets/images/avatar/avatar6.jpg';
+import authorImg2 from '../assets/images/avatar/avatar1.jpg';
+import authorImg3 from '../assets/images/avatar/avatar2.jpg';
+import authorImg4 from '../assets/images/avatar/avatar3.jpg';
+import authorImg5 from '../assets/images/avatar/avatar4.jpg';
+import authorImg6 from '../assets/images/avatar/avatar5.jpg';
+import authorImg7 from '../assets/images/avatar/avatar7.jpg';
+import authorImg8 from '../assets/images/avatar/avatar8.jpg';
+import authorImg9 from '../assets/images/avatar/avatar9.jpg';
+import authorImg10 from '../assets/images/avatar/avatar10 .jpg';
 
 const TestimonialList = [
   {

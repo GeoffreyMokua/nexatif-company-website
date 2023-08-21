@@ -26,7 +26,7 @@ import ServicesList from '../../data/services-list';
 import CaseStudyList from '../../data/case-study-list';
 import TestimonialList from '../../data/testimonial-list';
 import BlogList from '../../data/blog-list';
-import TestimonialImg from '../../assets/images/services/services-img1.webp';
+import TestimonialImg from '../../assets/images/services/services-img1.jpg';
 
 // Page Section
 import Slider from './slider';
@@ -216,7 +216,7 @@ function HomeIndex() {
               </Row>
               <Row className="align-items-center">
                 <Col lg={12}>
-                  {/* <TabSection /> */}
+                  <TabSection />
                 </Col>
               </Row>
             </Container>
