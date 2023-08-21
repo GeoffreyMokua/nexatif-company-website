@@ -20,7 +20,7 @@ function TermsConditions() {
                     extraClass="text-center mb-0"
                     tag="h1"
                     title="Terms and Conditions"
-                    content="Let success motivate you. Find a picture of what epitomizes success to you and then pull it out when you are in need of motivation."
+                    content="Please read these terms and conditions carefully before using www.nexatif.com website operated by NEXATIF."
                   />
                 </Col>
               </Row>
@@ -36,32 +36,81 @@ function TermsConditions() {
                 desires.
               </p>
               <h4 className="mt-4 text-primary">
-                Your Registration Obligations
+                Conditions of use
               </h4>
               <p className="mb-20">
-                The best way is to develop and follow a plan. Start with your
-                goals in mind and then work backwards to develop the plan. What
-                steps are required to get you to the goals? Make the plan as
-                detailed as possible. Try to visualize and then plan for, every
-                possible setback. Commit the plan to paper and then keep it with
-                you at all times. Review it regularly and ensure that every step
-                takes you closer to your Vision and Goals. If the plan doesn’t
-                support the vision then change it!
+                By using this website, you certify that you have read and reviewed
+                this Agreement and that you agree to comply with its terms. If you do not
+                want to bound by the terms of this Agreement, you are advised to stop using the website
+                accordingly. Nexatif only grants use and access of this website, its products
+                and its services to those who have accepted its terms.
               </p>
+              <h4 className="mt-4 text-primary">Applicable law
+              </h4>
+              <p className="mb-20">
+                By using this website, you agree that the laws of your country, without 
+                regard to principles of conflict laws, will govern these terms and conditions
+                or any dispute of any sort that might come between Nexatif and you or
+                its business partners and associates.
+
+              </p>
+
+              <h4 className="mt-4 text-primary">Age Restriction
+              </h4>
+              <p className="mb-20">
+
+                You must be at least 18 (eighteen) years of age before you can use this website.
+                By using this website, you warrant that you are at least 18 years of
+                age and you may legally adhere to this Agreement. Nexatif assumes
+                no responsibility for liabilities related to age misrepresentation.
+              </p>
+
+              <h4 className="mt-4 text-primary">
+                Disputes
+
+              </h4>
+              <p className='mb-20'>
+                Any dispute related in any way to your use of this website or to products you purchase from
+                us shall be arbitrated by state or federal court of your location and you consent to exclusive jurisdiction and venue of such courts.
+              </p>
+
+              <h4 className="mt-4 text-primary">
+                Indemnification
+
+              </h4>
+              <p className='mb-20'>
+                You agree to indemnify Nexatif and its affiliates and hold Nexatif harmless 
+                against legal claims and demands that may arise from your use or misuse of our services.
+                We reserve the right to select our own legal counsel. 
+              </p>
+
+              <h4 className="mt-4 text-primary">
+                Limitation on liability
+
+              </h4>
+              <p className='mb-20'>
+                Nexatif is not liable for any damages that may occur to you as a result of your misuse of our website.
+                Nexatif reserves the right to edit, modify, and change this Agreement at any time.
+                We shall let our users know of these changes through electronic mail. This Agreement is an understanding between
+                Nexatif and the user, and this supersedes and replaces all prior agreements regarding the use of this website.
+              </p>
+
+
+
+
               <h4 className="mt-4 text-primary">
                 User Account, Password, and Security
               </h4>
               <p className="mb-20">
-                One of the main areas that I work on with my clients is shedding
-                these non-supportive beliefs and replacing them with beliefs
-                that will help them to accomplish their desires.
+                As a user of this website, you may be asked to register with us and provide information
+                you are responsible for ensuring the accurracy of this information, and you are responsible
+                for mantaining the safety and security of your identifying infromation. You
+                are responsible for all activities that occur under your account or password.
               </p>
-              <h4 className="mt-4 text-primary">User Conduct</h4>
+              <h4 className="mt-4 text-primary">Privacy policy</h4>
               <p className="mb-20">
-                I truly believe Augustine’s words are true and if you look at
-                history you know it is true. There are many people in the world
-                with amazing talents who realize only a small percentage of
-                their potential. We all know people who live this truth.{' '}
+                Before you continue using our website, we advise you to read our privacy policy
+                regarding user data collection. It will help you better understand our practices.
               </p>
               <ul className="ps-3 mb-20 d-block">
                 <li>Making a decision to do something</li>
@@ -73,16 +122,15 @@ function TermsConditions() {
                 <li>Commit your decision to paper</li>
                 <li>Execution is the single biggest factor in achievement</li>
               </ul>
-              <h4 className="text-primary">International Use</h4>
+              <h4 className="text-primary">Intellectual property</h4>
               <p className="mb-0">
-                The best way is to develop and follow a plan. Start with your
-                goals in mind and then work backwards to develop the plan. What
-                steps are required to get you to the goals? Make the plan as
-                detailed as possible. Try to visualize and then plan for, every
-                possible setback. Commit the plan to paper and then keep it with
-                you at all times. Review it regularly and ensure that every step
-                takes you closer to your Vision and Goals. If the plan doesn’t
-                support the vision then change it
+                You agree that all materials, products, and services provided on this 
+                website are property of Nexatif its affiliates, directors, officers, employees
+                agents, suppliers or licensors including copyrights, trade secrets, trademarks,
+                patents, trade names, logos, designs, icons and other intellectual property.
+                You grant Nexatif a royalty-free, non-exclusive license to use, copy, modify and broadcast
+                the content you upload and publish. For issues regarding intellectual property rights,
+                you should contact the company in order to come to an agreement.
               </p>
             </Container>
           </section>
