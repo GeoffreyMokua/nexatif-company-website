@@ -36,9 +36,9 @@ const BlogList = [
     category: 'Technology',
     date: 'March 15, 2023',
     description:
-      'There are basically six key areas to higher achievement. Some people will tell you there are four while others may tell you there are eight. One thing for certain though, is that irrespective of the number of steps the experts talk about, they all originate from the same roots.',
+      'In the past years, we have seen the internet grow exponentiallyand at the same time we have also witnessed similar growth in the area of eCommerce. Every year, more businesses open websites of their own in order to stake a claim on the World Wide Web.',
     mainDescription:
-      'You carry on doing the same things, living the same way and dealing with this thing in the same way as you have been doing. If you were choose the path to the right, the right path, there are new possibilities, achievement, freedom of mind, positive and progressive implications. Think about that as you stand at this place where the path splits. You want to make a decision and commit to one of these paths. Before you make that decision, we are going to see what each path holds for your future.',
+      "For the most part, people have come to accept websites as a necessity, but there are a few holdouts remaining who don't see the need. Websites are expensive, they argue. I don't know how to make one, they say. It can't really make that much of a difference, they insist. Well, experience has shown us the following three counters to these objections. Websites don't have to be expensive, they can be quite easy to create, and they do in fact make a huge difference in a business's growth and sustainability.",
   },
   {
     id: 4,
