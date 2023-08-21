@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 
 // Site Data
-import authorImage1 from '../../assets/images/avatar/01.webp';
-import authorImage2 from '../../assets/images/avatar/02.webp';
-import authorImage3 from '../../assets/images/avatar/03.webp';
-import authorImage4 from '../../assets/images/avatar/04.webp';
-import authorImage5 from '../../assets/images/avatar/05.webp';
+import authorImage1 from '../../assets/images/avatar/avatar6.jpg';
+import authorImage2 from '../../assets/images/avatar/avatar2.jpg';
+import authorImage3 from '../../assets/images/avatar/avatar3.jpg';
+import authorImage4 from '../../assets/images/avatar/avatar5.jpg';
+import authorImage5 from '../../assets/images/avatar/avatar8.jpg';
 
 // SCSS
 import './comments.scss';
