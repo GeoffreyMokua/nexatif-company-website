@@ -52,7 +52,7 @@ function BusinessInfo() {
           <h5 className="text-white mb-2">Is mass pricing available?</h5>
           <p className="mb-0">
             Are you an extensive enterprise business processing more than $20K
-            per month? Give us a call at 134-648-795 or drop us an email at
+            per month? Give us a call at 0790482160 or drop us an email at
             pricing@hisoft.com to start the discussion.
           </p>
         </div>
@@ -90,7 +90,7 @@ function BusinessInfo() {
           <h5 className="text-white mb-2">What accounts do I need to have?</h5>
           <p className="mb-0">
             To process Visa Checkout transactions, you’ll need to have an
-            integration with a Hi-tech account.
+            integration with a Visa account.
           </p>
         </div>
       </Col>
