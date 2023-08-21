@@ -3,7 +3,7 @@ const faqData = [
     id: 1,
     title: 'I have some questions about privacy. Who can I ask?',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'Our company has a great communications standby to answer your questions. Once you reach us a response is always available in the next 24 hours. All questions are handled privately and with full professionalism.',
     listItem: [
       { list: 'Success is something of which we all want more' },
       { list: 'Most people believe that success is difficult' },
@@ -16,9 +16,9 @@ const faqData = [
     id: 2,
     title: 'What is the cost of a Service Agreement?',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'A fee-for-service agreement is a way you can either bill or pay for products or services rendered. This is a popular payment structure in many industries, including healthcare and telecommunications. It has its own set of benefits and drawbacks that you should be aware of if you are considering this as a billing strategy for your own business.',
     listItem: [
-      { list: 'Making the decisio' },
+      { list: 'Making the decision' },
       { list: 'Clarity – developing the Vision' },
       {
         list: 'Commitment – understanding the price and having the willingness to pay that price',
@@ -31,7 +31,7 @@ const faqData = [
     id: 3,
     title: 'Why IT Staff Management?',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'Employing staff management strategies in your organisation can have a significant impact on, well, everything. From employee experience to performance optimisation to achieving objectives and way more.',
     listItem: [
       { list: 'So, how can we stay on course with all the distractions' },
       {
@@ -50,7 +50,7 @@ const faqData = [
     id: 4,
     title: 'I am worried about e-mail scams...',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'Email scams can steal sensitive information such as passwords, credit card numbers, account data, addresses, and more. Phishing emails are crafted to appear legitimate, such as messages from your bank or another trusted source. They request personal information, which criminals then use for identity theft.',
     listItem: [
       { list: 'If the answer is no, you may want to reconsider doing it' },
       {
@@ -69,7 +69,7 @@ const faqData = [
     id: 5,
     title: 'What are the Benefits of our service?',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      ' We provide quality servicesto our clients on various indutries. Our clients are all satisfied and we have equiped them with the relevant solutions to them.',
     listItem: [
       { list: 'One of the main areas that I work on with my clients' },
       { list: 'And it’s not just parents that are the cause – teachers' },
