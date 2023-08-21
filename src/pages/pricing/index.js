@@ -15,7 +15,7 @@ import { ServiceBoxStyle2 } from '../../component/service-box/service-box';
 import CategoryGridList from '../../template/category-grid';
 
 // Site Data
-import PagaHeaderImg from '../../assets/images/page-header/page-header-pricing.webp';
+import PagaHeaderImg from '../../assets/images/page-header/page-header-pricing.jpg';
 
 function Pricing() {
   return (
