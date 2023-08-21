@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 // Site Data
-import PagaHeaderImg from '../../assets/images/page-header/page-header-bg.webp';
+import PagaHeaderImg from '../../assets/images/page-header/page-header-blog.jpg';
 
 // SCSS
 import './page-header.scss';

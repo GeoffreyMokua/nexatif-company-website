@@ -15,7 +15,7 @@ import ReplayForm from '../../form/replay-form';
 import ActionBox from '../../component/action-box';
 
 // Site Data
-import PagaHeaderImg from '../../assets/images/page-header/page-header-blog.webp';
+import PagaHeaderImg from '../../assets/images/page-header/page-header-blog.jpg';
 import BlogList from '../../data/blog-list';
 import videoImg from '../../assets/images/blog/blog-img2.webp';
 

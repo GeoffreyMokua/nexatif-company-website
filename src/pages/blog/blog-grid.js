@@ -12,7 +12,7 @@ import Button from '../../component/button/button';
 import ActionBox from '../../component/action-box';
 
 // SIte Data
-import PagaHeaderImg from '../../assets/images/page-header/page-header-blog.webp';
+import PagaHeaderImg from '../../assets/images/page-header/page-header-blog.jpg';
 import BlogList from '../../data/blog-list';
 
 function BlogGrid() {
