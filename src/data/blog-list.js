@@ -25,9 +25,9 @@ const BlogList = [
     category: 'Jobs',
     date: 'June 30, 2023',
     description:
-      "The first thing to remember about success is that it is a process - nothing more, nothing less. There is really no magic to it and it's not reserved only for a select few people. It really comes down to understanding the steps in the process and then executing on those steps.",
+      "BERT—which stands for Bidirectional Encoder Representations from Transformers, a Natural Language Processing technique—is an algorithm that has been added to Google Search to improve the accuracy and relevance of the search results produced. On October 21, 2019, Google officially activated BERT for English-language queries and featured snippets.",
     mainDescription:
-      'You carry on doing the same things, living the same way and dealing with this thing in the same way as you have been doing. If you were choose the path to the right, the right path, there are new possibilities, achievement, freedom of mind, positive and progressive implications. Think about that as you stand at this place where the path splits. You want to make a decision and commit to one of these paths. Before you make that decision, we are going to see what each path holds for your future.',
+      'BERT collaborates with previously existing Google algorithms to facilitate a clearer understanding of the searches users make by helping the system better recognize the natural language patterns people use. This enables Google Search to identify and deliver more appropriate information—results that better match the user’s input. It does not compromise or serve as a substitute for another algorithm but rather builds on the latticework foundation established by previous updates, including Fred, Possum, Mobilege, Pigeon, Hummingbird, Penguin, and Panda.',
   },
   {
     id: 3,
