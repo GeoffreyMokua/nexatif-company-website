@@ -17,7 +17,7 @@ import ActionBox from '../../component/action-box';
 // Site Data
 import PagaHeaderImg from '../../assets/images/page-header/page-header-blog.jpg';
 import BlogList from '../../data/blog-list';
-import videoImg from '../../assets/images/blog/blog-img2.webp';
+import videoImg from '../../assets/images/blog/blog-img3.jpg';
 
 function BlogSingle() {
   // Single Post Dynaic ID
