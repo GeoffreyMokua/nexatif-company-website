@@ -5,10 +5,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // Site Data
-import Shanghai from '../../assets/images/about/shanghai.webp';
-import Frankfurt from '../../assets/images/about/frankfurt.webp';
-import Chicago from '../../assets/images/about/chicago.webp';
-import NewYork from '../../assets/images/about/new-york.webp';
+import Shanghai from '../../assets/images/about/nairobi.jpg';
+import Frankfurt from '../../assets/images/about/mombasa.jpg';
+import Chicago from '../../assets/images/about/nakuru.jpg';
+import NewYork from '../../assets/images/about/kisumu.jpg';
 
 function CityInfo() {
   return (
@@ -16,23 +16,23 @@ function CityInfo() {
       <Row>
         <Col sm={6} className="mb-5">
           <img className="img-fluid mb-4" src={Shanghai} alt="Shanghai" />
-          <h4>Shanghai</h4>
-          <h6 className="mb-0">214 West Arnold St. New York, NY 10002</h6>
+          <h4>Nairobi</h4>
+          <h6 className="mb-0">214 Westlands Waiyaki way, NB 10002</h6>
         </Col>
         <Col sm={6} className="mb-5">
           <img className="img-fluid mb-4" src={Frankfurt} alt="Shanghai" />
-          <h4>Frankfurt</h4>
-          <h6 className="mb-0">Fairground St. North Bergen, NJ</h6>
+          <h4>Mombasa</h4>
+          <h6 className="mb-0">1st Avenue, Opposite Tuskys 204</h6>
         </Col>
         <Col sm={6} className="mb-5 mb-sm-0">
           <img className="img-fluid mb-4" src={Chicago} alt="Shanghai" />
-          <h4>Chicago</h4>
-          <h6 className="mb-0">West Indian Summer St. Missoula</h6>
+          <h4>Nakuru</h4>
+          <h6 className="mb-0">West Nakuru, Main Roundbout Drive 123</h6>
         </Col>
         <Col sm={6}>
           <img className="img-fluid mb-4" src={NewYork} alt="Shanghai" />
-          <h4>New York</h4>
-          <h6 className="mb-0">Virginia Drive Temple Hills</h6>
+          <h4>Kisumu</h4>
+          <h6 className="mb-0">Achieng Road, street 1</h6>
         </Col>
       </Row>
     </>
