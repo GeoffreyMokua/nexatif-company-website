@@ -48,9 +48,9 @@ const BlogList = [
     category: 'Marketing',
     date: 'April 28, 2023',
     description:
-      'Making a decision to do something - this is the first step. We all know that nothing moves until someone makes a decision. The first action is always in making the decision to proceed. This is a fundamental step, which most people overlook.',
+      'Digital revolution has profoundly impacted society, altering how we live, work, and communicate, and will continue to shape it in the future. It has led to the widespread adoption of technology in every aspect of society, disrupting traditional industries like retail and media to create new industries such as e-commerce and social media.',
     mainDescription:
-      'You carry on doing the same things, living the same way and dealing with this thing in the same way as you have been doing. If you were choose the path to the right, the right path, there are new possibilities, achievement, freedom of mind, positive and progressive implications. Think about that as you stand at this place where the path splits. You want to make a decision and commit to one of these paths. Before you make that decision, we are going to see what each path holds for your future.',
+      ' Businesses are adapting to changes in how people interact and consume products and services. This includes a shift towards a customer-centric approach, where companies prioritize the needs and preferences of individual customers. Examples of this can be seen in companies such as food delivery services like Zomato, which allow customers to order from their favorite restaurants from within the convenience of their homes or any location they prefer.',
   },
   {
     id: 5,
