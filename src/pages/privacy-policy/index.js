@@ -31,16 +31,14 @@ function PrivacyPolicy() {
           <section className="section-pb">
             <Container>
               <p>
-                We know this in our gut, but what can we do about it? How can we
-                motivate ourselves?
+                Our Privacy Policy was last updated on June 26, 2023.
               </p>
               <p>
-                Eum nihil expedita dolorum odio dolorem, explicabo rem illum
-                magni perferendis. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Quidem error quae illo excepturi nostrum
-                blanditiis laboriosam magnam explicabo. Molestias, eum nihil
-                expedita dolorum odio dolorem, explicabo rem illum magni
-                perferendis.
+                This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your
+                information when You use the Service and tells You about Your privacy rights and how the law protects You.
+                We use Your Personal data to provide and improve the Service. By using the Service, You agree to the
+               collection and use of information in accordance with this Privacy Policy. This Privacy Policy was generated
+               by TermsFeed Privacy Policy Generator.
               </p>
               <p>
                 Positive pleasure-oriented goals are much more powerful
@@ -102,7 +100,7 @@ function PrivacyPolicy() {
                 Introspection is the trick. Understand what you want, why you
                 want it and what it will do for you. This is a critical factor,
                 and as such, is probably the most difficult step. For this
-                reason.<Link to="mailto:support@hisoft.com"> support@hisoft.com</Link>{' '}
+                reason.<Link to="mailto:support@exatif.com"> support@nexatif.com</Link>{' '}
               </p>
               <ul className="list-unstyled">
                 <li className="mb-2">
@@ -131,7 +129,7 @@ function PrivacyPolicy() {
                 questions: What do I really want? What does success look like to
                 me? Why do I want a particular thing? How will this achievement
                 change my life? How can I use this success.
-                <Link to="mailto:support@hisoft.com"> support@hisoft.com</Link>
+                <Link to="mailto:support@hisoft.com"> support@nexatif.com</Link>
               </p>
             </Container>
           </section>
