@@ -13,14 +13,14 @@ import gallery1Img11 from '../assets/images/case-study/case-study-img11.webp';
 import gallery1Img12 from '../assets/images/case-study/case-study-img12.webp';
 
 // Image Gallery List 2
-import gallery2Img1 from '../assets/images/gallery/01.webp';
-import gallery2Img2 from '../assets/images/gallery/02.webp';
-import gallery2Img3 from '../assets/images/gallery/03.webp';
-import gallery2Img4 from '../assets/images/gallery/04.webp';
-import gallery2Img5 from '../assets/images/gallery/05.webp';
-import gallery2Img6 from '../assets/images/gallery/06.webp';
-import gallery2Img7 from '../assets/images/gallery/07.webp';
-import gallery2Img8 from '../assets/images/gallery/08.webp';
+import gallery2Img1 from '../assets/images/gallery/01.jpg';
+import gallery2Img2 from '../assets/images/gallery/02.jpg';
+import gallery2Img3 from '../assets/images/gallery/03.jpg';
+import gallery2Img4 from '../assets/images/gallery/04.jpg';
+import gallery2Img5 from '../assets/images/gallery/05.jpg';
+import gallery2Img6 from '../assets/images/gallery/06.jpg';
+import gallery2Img7 from '../assets/images/gallery/07.jpg';
+import gallery2Img8 from '../assets/images/gallery/08.jpg';
 
 const ImageGalleryList = [
   {
