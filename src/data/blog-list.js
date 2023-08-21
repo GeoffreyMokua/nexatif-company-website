@@ -61,7 +61,7 @@ const BlogList = [
     description:
       "There is really no magic to it and it's not reserved only for a select few people. As such, success really has nothing to do with luck, coincidence or fate. It really comes down to understanding the steps in the process and then executing on those steps.",
     mainDescription:
-      'You carry on doing the same things, living the same way and dealing with this thing in the same way as you have been doing. If you were choose the path to the right, the right path, there are new possibilities, achievement, freedom of mind, positive and progressive implications. Think about that as you stand at this place where the path splits. You want to make a decision and commit to one of these paths. Before you make that decision, we are going to see what each path holds for your future.',
+      'Think of a diamond as being the product. The number of carats, for example, is a feature. The benefits, however, can be how the product will make you feel, how it will change your view of the person who gave it to you, or even how others regard you because you now wear the diamond ring! In business, a benefit will generally describe something that moves your prospect away from pain, or from frustration to pleasure, or how your service will help them achieve, you fill in the blank. You must master this distinction because people rarely buy based on features. Most buying decisions are highly emotional and sell out to benefits.',
   },
   {
     id: 6,
@@ -70,9 +70,9 @@ const BlogList = [
     category: 'Operations',
     date: 'Mar 30, 2023',
     description:
-      "There is really no magic to it and it's not reserved only for a select few people. The first thing to remember about success is that it is a process - nothing more, nothing less. It really comes down to understanding the steps in the process and then executing on those steps.",
+      "We often hear success stories about new businesses immediately hitting the profit jackpot. In reality, though, most companies – if they’re able even to stay open – don’t make a profit for at least several years. If you’re a new business owner, you’ve hopefully planned for this delay in income but remain eager to start bringing in more money. After all, earning money is one of the reasons you decided to become an entrepreneur in the first place.  It takes hard work to learn how to make a profit in business. You’ll need the right knowledge, strategies and tools, a viable plan, and a commitment to continuous and neverending improvement.",
     mainDescription:
-      'You carry on doing the same things, living the same way and dealing with this thing in the same way as you have been doing. If you were choose the path to the right, the right path, there are new possibilities, achievement, freedom of mind, positive and progressive implications. Think about that as you stand at this place where the path splits. You want to make a decision and commit to one of these paths. Before you make that decision, we are going to see what each path holds for your future.',
+      'What does it really mean to make a profit? The money coming into your company is considered revenue, but before the money hits your bank account, you’ll have to cover business costs such as payroll, taxes, supplies and other expenses. What’s left is your profit margin – the magic number that determines whether you’ll stay in business, experience explosive growth or be forced to close your doors.  You also need to understand financial statements and basic financial terms. You can’t fly a plane without knowing how to read the gauges; the same applies to business. Learn how to read a balance sheet, income statement, and cash flow statement, and you’ll be able to participate in conversations about how to make a profit.',
   },
 ];
 
