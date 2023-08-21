@@ -5,10 +5,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // Site Data
-import Shanghai from '../../assets/images/about/nairobi.jpg';
-import Frankfurt from '../../assets/images/about/mombasa.jpg';
-import Chicago from '../../assets/images/about/nakuru.jpg';
-import NewYork from '../../assets/images/about/kisumu.jpg';
+import Shanghai from '../../assets/images/about/city1.jpg';
+import Frankfurt from '../../assets/images/about/city2.jpg';
+import Chicago from '../../assets/images/about/city3.jpg';
+import NewYork from '../../assets/images/about/city4.jpg';
 
 function CityInfo() {
   return (
