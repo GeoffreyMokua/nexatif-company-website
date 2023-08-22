@@ -12,10 +12,10 @@ import ActionBox from '../../component/action-box';
 import CaseStudyStyle1 from '../../component/case-study';
 
 // Site Data
-import PagaHeaderImg from '../../assets/images/page-header/page-header-services.webp';
+import PagaHeaderImg from '../../assets/images/page-header/page-header-services.jpg';
 import CaseStudyList from '../../data/case-study-list';
-import OverviewImage from '../../assets/images/bg/01.webp';
-import ChallengeImage from '../../assets/images/bg/02.webp';
+import OverviewImage from '../../assets/images/bg/01.jpg';
+import ChallengeImage from '../../assets/images/bg/02.jpg';
 
 function CaseStudySingle() {
   let { id } = useParams();
