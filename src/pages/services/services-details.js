@@ -80,7 +80,7 @@ function ServicesSingle() {
                     that will bring happiness and satisfaction into your life.
                     your goals in mind and Just go there now. Success isn't
                     really that difficult. There is a significant portion of the
-                    population here in North America, that actually want and
+                    population here in East Africa, that actually want and
                     need success to be hard! Why? So they then have a built-in
                     excuse when things don’t go their way! Pretty sad situation,
                     to say the least.

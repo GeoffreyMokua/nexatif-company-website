@@ -26,12 +26,12 @@ import CategoryGridList from '../../template/category-grid';
 import ProjectTimeline from './project-timeline';
 
 // Site Data
-import image1 from '../../assets/images/about/12.webp';
-import image2 from '../../assets/images/about/13.webp';
+import image1 from '../../assets/images/about/10.jpg';
+import image2 from '../../assets/images/about/07.jpg';
 import { CatData2 } from '../../data/category-box-list2';
 import TestimonialList from '../../data/testimonial-list';
 import CaseStudyList from '../../data/case-study-list';
-import PagaHeaderImg from '../../assets/images/page-header/industries-3.webp';
+import PagaHeaderImg from '../../assets/images/page-header/i3.jpg';
 
 function Industries3() {
   const listItems1 = [

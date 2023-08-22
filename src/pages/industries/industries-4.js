@@ -30,8 +30,8 @@ import VideoPopup from '../../component/video';
 import { CatData2 } from '../../data/category-box-list2';
 import TestimonialList from '../../data/testimonial-list';
 import CaseStudyList from '../../data/case-study-list';
-import videoImg from '../../assets/images/blog/blog-img1.webp';
-import PagaHeaderImg from '../../assets/images/page-header/industries-4.webp';
+import videoImg from '../../assets/images/blog/blog-img1.jpg';
+import PagaHeaderImg from '../../assets/images/page-header/i4.jpg';
 
 function Industries4() {
   const listItems1 = [
