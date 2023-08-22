@@ -1,11 +1,11 @@
-import featureStepImg1 from '../assets/images/services/services-img1.webp';
-import featureStepImg2 from '../assets/images/services/services-img2.webp';
-import featureStepImg3 from '../assets/images/services/services-img3.webp';
-import featureStepImg4 from '../assets/images/services/services-img4.webp';
-import featureStepImg5 from '../assets/images/services/services-img5.webp';
-import featureStepImg6 from '../assets/images/services/services-img6.webp';
-import featureStepImg7 from '../assets/images/services/services-img4.webp';
-import featureStepImg8 from '../assets/images/services/services-img2.webp';
+import featureStepImg1 from '../assets/images/services/services-img1.jpg';
+import featureStepImg2 from '../assets/images/services/services-img2.jpg';
+import featureStepImg3 from '../assets/images/services/services-img3.jpg';
+import featureStepImg4 from '../assets/images/services/services-img4.jpg';
+import featureStepImg5 from '../assets/images/services/services-img5.jpg';
+import featureStepImg6 from '../assets/images/services/services-img1.jpg';
+import featureStepImg7 from '../assets/images/services/services-img4.jpg';
+import featureStepImg8 from '../assets/images/services/services-img2.jpg';
 
 const FeatureStepList = [
   {
@@ -36,7 +36,7 @@ const FeatureStepList = [
     id: 4,
     featureImg: featureStepImg4,
     stepNumber: '04',
-    title: '10 years experience – and counting',
+    title: '1 year experience – and counting',
     description:
       'To make these virtues a habit, Franklin can up with a method to grade himself on his daily actions.',
   },
