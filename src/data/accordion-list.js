@@ -85,39 +85,39 @@ const careersData = [
     id: 1,
     title: 'IT & Security Manager',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'Cybersecurity managers are equal parts technologist and manager. They must be conversant in modern security software, protocols, practices and regulations. They must also have managerial skills to work across departments and interact with upper management.',
     listItem: [
-      { list: 'Success is something of which we all want more' },
-      { list: 'Most people believe that success is difficult' },
-      { list: 'There are basically six key areas to higher achievement' },
-      { list: 'Believing in yourself and those around you' },
-      { list: 'Making a decision to do something' },
+      { list: 'Intrusion detection and prevention. ' },
+      { list: 'Identity and access management.' },
+      { list: 'Security incident handling and response.' },
+      { list: 'Audit and regulatory compliance.' },
+      { list: 'Application security development.' },
     ],
   },
   {
     id: 2,
     title: 'Junior HR Business Partner',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'Junior HR business partner provides day-to-day performance management guidance to leaders (coaching, counseling, career development, disciplinary actions) and coordinate with Employee Relations and Employment Law as needed.',
     listItem: [
-      { list: 'Making the decisio' },
-      { list: 'Clarity – developing the Vision' },
+      { list: 'Manage the year end compensation planning process while ensuring a strong link to performance.' },
+      { list: 'Drive HR initiatives and projects.' },
       {
-        list: 'Commitment – understanding the price and having the willingness to pay that price',
+        list: 'Reinforce Policies & Practices – Promptly escalate and assist to resolve issues.',
       },
-      { list: 'Belief – believing in yourself and those around you' },
-      { list: 'Taking action – practice Ready, Fire, Aim…' },
+      { list: 'Manage the year end compensation planning process while ensuring a strong link to performance.' },
+      { list: 'Managing of HR development processes in field Sales Team members, including proposing solutions and training.' },
     ],
   },
   {
     id: 3,
     title: 'Junior Outreach Representative',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'An outreach specialist is primarily responsible for organizing and managing social service programs that promote health and wellness within a community. They typically conduct research and assessments to determine the community needs, thoroughly plan events and programs, participate in hiring staff and volunteers, and liaise with sponsors and suppliers. Often reporting to a manager or supervisor, an outreach specialist must also perform clerical tasks such as producing progress reports, preparing necessary documentation, managing schedules, arranging appointments, and even responding to inquiries and concerns.',
     listItem: [
-      { list: 'So, how can we stay on course with all the distractions' },
+      { list: 'Create PowerPoint presentations for events.' },
       {
-        list: 'The best way is to develop and follow a plan. Start with your goals',
+        list: 'Maintain a high level of confidentiality and professionalism guidelines.',
       },
       {
         list: 'What steps are required to get you to the goals? Make the plan as detailed as possible.',
@@ -132,32 +132,35 @@ const careersData = [
     id: 4,
     title: 'Senior Salesforce Developer',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'We are looking for Salesforce Developer to join our technical team. As a Salesforce Developer, you will help develop custom code and applications for our clients. We are looking for candidates who stay updated with the latest technology trends, work well in a fast-paced environments, and can solve problems independently or collaboratively. You will report to our Senior Director, Technical Services.',
     listItem: [
-      { list: 'If the answer is no, you may want to reconsider doing it' },
+      { list: 'Develop and maintain Salesforce applications using Aura, LWC, Apex, Visualforce, and Salesforce Flow.' },
       {
-        list: 'I coach my clients to practice the 3 D’s – Defer, Delegate or Delete',
+        list: 'Design and manage data models, including custom objects, queries, and metadata.',
       },
-      { list: 'Can the particular activity be done later? Defer it!' },
+      { list: 'Use Batch Apex for efficient data processing and handle bulk data loading.' },
       {
-        list: 'Commitment is something that comes from understanding that everything',
+        list: 'Integrate Salesforce with external web services.',
       },
       {
-        list: 'This is important because nobody wants to put significant effort into',
+        list: 'Follow agile/Scrum/Lean methodologies.',
       },
+      {
+        list: 'Familiarity with Professional Services or the Financial Services industry is a plus',
+      }
     ],
   },
   {
     id: 5,
     title: 'Senior Business Development Manager',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      'Senior business development managers use extensive industry knowledge and heightened strategic planning abilities to assist businesses in making decisions that can promote growth and success. They create strategic plans, determine customer requirements and examine the commercial potential of products and services.',
     listItem: [
-      { list: 'One of the main areas that I work on with my clients' },
-      { list: 'And it’s not just parents that are the cause – teachers' },
-      { list: 'Nothing changes until something moves' },
-      { list: 'Get the oars in the water and start rowing.' },
-      { list: 'Execution is the single biggest factor in achievement' },
+      { list: 'Developing and executing marketing strategies to promote the organization’s products or services to new customers.' },
+      { list: 'Participating in strategic planning sessions with senior management to identify business opportunities and develop plans for growth.' },
+      { list: 'Presenting proposals to clients that outline pricing terms and other details of working together with the client.' },
+      { list: 'Studying the client’s industry to determine which products or services would be most beneficial for them to offer.' },
+      { list: 'Developing and managing long term relationships with clients to ensure continued satisfaction with the company’s services or products.' },
     ],
   },
 ];
