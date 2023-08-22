@@ -1,9 +1,9 @@
-import servicesimg1 from '../assets/images/services/services-img1.webp';
-import servicesimg2 from '../assets/images/services/services-img2.webp';
-import servicesimg3 from '../assets/images/services/services-img3.webp';
-import servicesimg4 from '../assets/images/services/services-img4.webp';
-import servicesimg5 from '../assets/images/services/services-img5.webp';
-import servicesimg6 from '../assets/images/services/services-img6.webp';
+import servicesimg1 from '../assets/images/services/services-img1.jpg';
+import servicesimg2 from '../assets/images/services/services-img2.jpg';
+import servicesimg3 from '../assets/images/services/services-img3.jpg';
+import servicesimg4 from '../assets/images/services/services-img4.jpg';
+import servicesimg5 from '../assets/images/services/services-img5.jpg';
+import servicesimg6 from '../assets/images/services/services-img6.jpg';
 
 const ServicesList = [
   {
