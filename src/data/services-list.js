@@ -12,7 +12,7 @@ const ServicesList = [
     icon: 'flaticon-data',
     title: 'Information Security',
     description:
-      'Do it today. Remind yourself of someone you know who died suddenly and the fact that there is no guarantee that tomorrow will come.',
+      'We as Nexatif provide Information security services which protects sensitive information from unauthorized activities, including inspection, modification, recording, and any disruption or destruction. The goal is to ensure the safety and privacy of critical data such as customer account details, financial data or intellectual property.',
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const ServicesList = [
     icon: 'flaticon-author',
     title: 'Data Synchronization',
     description:
-      'Positive pleasure-oriented goals are much more powerful motivators than negative fear-based ones. Although each is successful separately.',
+      'We enable Data synchronization in your business which entails synchronizing data between two or more devices and updating changes automatically between them to maintain consistency within systems.',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const ServicesList = [
     icon: 'flaticon-icon-149196',
     title: 'Mobile Platforms',
     description:
-      'We know this in our gut, but what can we do about it? How can we motivate ourselves? One of the most difficult aspects of achieving success.',
+      'Nexatif works across the mobile platforms, frameworks & environments to mobilize your business. Its mobile application development services spans from idea conceptualization to delivery. Nexatif works with following mobile platforms, frameworks & environments',
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const ServicesList = [
     icon: 'flaticon-chart',
     title: 'Process Automation',
     description:
-      'It must come from within as the natural product of your desire to achieve something and your belief that you are capable to succeed at your goal.',
+      'We are specialized in providing DevOps as a managed service to various development teams and businesses who wish to run applications on the cloud. Our experts guide the teams to successfully leverage the benefits of the cloud and make sure that their environment runs efficiently and effectively.',
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const ServicesList = [
     icon: 'flaticon-design',
     title: 'Event Processing',
     description:
-      'There is really no magic to it and it’s not reserved only for a select few people. As such, success really has nothing to do with luck.',
+      ' Event processing is the capture, enrichment, formatting and emission of events, the subsequent routing and any further processing of emitted events (sometimes in combination with other events), and the consumption of the processed events. Event processing provides filtering, capture, enrichment, formatting, and routing of single business events, ',
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ const ServicesList = [
     icon: 'flaticon-group',
     title: 'Content Management',
     description:
-      'There are basically six key areas to higher achievement. Some people will tell you there are four while others may tell you there are eight.',
+      'Content management (CM) is the creation, storage, access, delivery, and optimization of digital media on one central platform. Today’s consumers are engaging with content across even more touchpoints, such as voice devices, IoT, and wearables. When digital experiences are managed properly, brands can see major benefits.',
   },
 ];
 
