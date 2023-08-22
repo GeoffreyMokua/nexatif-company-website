@@ -102,18 +102,22 @@ function TeamSingle() {
 
                 <h4>Personal Experience</h4>
                 <p>
-                  Copper mug try-hard pitchfork pour-over freegan heirloom
-                  neutra air plant cold-pressed tacos poke beard tote bag.
-                  Heirloom echo park mlkshk tote bag selvage hot chicken
-                  authentic tumeric truffaut hexagon try-hard chambray. Whatever
-                  cardigan tote bag tumblr hexagon brooklyn asymmetrical
-                  gentrify, subway tile poke farm-to-table.
+                  It takes 20 years to build a reputation and 5 minutes to ruin it.
+                  If you think about that, you’ll do things differently.
+                  To me, business isn’t about wearing suits or pleasing stockholders.
+                  It’s about being true to yourself, your ideas and focusing on the essentials.
+                  Balance suggests a perfect equilibrium. There is no such thing.
+                  That is a false expectation.
+                  … There are going to be priorities and dimensions of your life,
+                  how you integrate them is how you find true happiness.
                 </p>
                 <p>
-                  In dapibus urna sit amet accumsan tristique. Donec odio
-                  ligula, luctus venenatis varius id, tincidunt ac ipsum. Cras
-                  commodo, velit nec aliquam dictum, tortor velit dictum ipsum,
-                  sed ornare nunc leo nec ipsum.
+                  I always did something that I was a little not ready to do.
+                  I think that is how you grow. When there’s a moment of ‘Wow, I’m not
+                  so sure that I can do this,’ and you push through those moments,
+                  it’s then that you have a breakthrough.
+                  Sometimes that’s a sign that something really great is about to happen.
+                  You’re about to grow and learn a lot more about yourself.
                 </p>
                 <br />
                 <TeamForm title="Feel Free to Get in Touch with us." />

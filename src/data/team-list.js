@@ -16,17 +16,17 @@ const TeamList = [
     id: 1,
     image: teamImg1,
     name: 'Geoffrey Nyakundi',
-    position: 'Chief People Officer',
-    email: 'info@example.com',
-    phone: '+101 800 555 45',
-    address: '2 Thorndale Circle, Magnolia,de, 19962  United States',
+    position: 'Chief Executive Officer',
+    email: 'geoffrey@nexatif.com',
+    phone: '+2547 9048 2160',
+    address: 'P.O BOX 45200, Nairobi, CA',
     social: [
       { id: 1, icon: 'fab fa-facebook-f' },
       { id: 2, icon: 'fab fa-twitter' },
       { id: 3, icon: 'fab fa-linkedin-in' },
     ],
     blockquote:
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit volup tatem acusantium dolor emque laud antium.',
+      'Results-oriented chief executive officer with more than 5 years of experience managing and growing mid-sized companies and large enterprises. Tampa Bay Chronicle "40 Under 40" award recipient and responsible for unparalleled growth in business revenue in current position (275% in two years).',
   },
   {
     id: 2,
