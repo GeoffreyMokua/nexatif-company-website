@@ -17,8 +17,8 @@ import ClientLogo from '../../component/client-logo';
 import { ServiceBoxStyle2 } from '../../component/service-box/service-box';
 
 // Site Data
-import AboutImg1 from '../../assets/images/about/10.webp';
-import AboutImg2 from '../../assets/images/about/11.webp';
+import AboutImg1 from '../../assets/images/about/11.jpg';
+import AboutImg2 from '../../assets/images/about/10.jpg';
 import { AwardLogoList } from '../../data/client-logo-list';
 
 function HowWeWork() {
