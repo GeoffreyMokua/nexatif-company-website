@@ -15,7 +15,7 @@ import Counter from '../../component/counter/counter';
 import { ServiceBoxStyle2 } from '../../component/service-box/service-box';
 
 // Site Data
-import SectionBg from '../../assets/images/section-bg/07.webp';
+import SectionBg from '../../assets/images/section-bg/08.jpg';
 
 function MissionVision() {
   return (
@@ -48,7 +48,7 @@ function MissionVision() {
                     style="dark"
                     icon="flaticon-eye"
                     title="Our Vision"
-                    description="To make these virtues a habit, himself on his daily actions. In a journal he drew a table with a row for every virtue and a column for every day of the week."
+                    description="Our Vision is to be a top Web Design company in the IT sector and progress in our current position in the market."
                   />
                 </Col>
                 <Col sm={6}>
@@ -56,7 +56,7 @@ function MissionVision() {
                     style="theme"
                     icon="flaticon-target"
                     title="Our Mission"
-                    description="We also know those epic stories, those modern-day legends surrounding the early failures of such supremely successful folks as Michael Jordan and Bill Gates."
+                    description="Our mission is to be the industry's premier service provider company concentrated on fulfilling the maximum to our clients."
                   />
                 </Col>
               </Row>
