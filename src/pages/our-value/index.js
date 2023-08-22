@@ -16,7 +16,7 @@ import ClientLogo from '../../component/client-logo';
 import { ServiceBoxStyle2 } from '../../component/service-box/service-box';
 
 // Site Data
-import videoImg from '../../assets/images/blog/blog-img1.webp';
+import videoImg from '../../assets/images/blog/blog1.jpg';
 import FeatureStepList from '../../data/feature-step-list';
 import { AwardLogoList } from '../../data/client-logo-list';
 
