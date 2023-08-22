@@ -17,7 +17,7 @@ const CaseStudyList = [
     client: 'Developer',
     categories: 'It Company',
     budgets: '$250.000',
-    location: 'New York, USA',
+    location: 'Nairobi, Kenya',
     url: 'http://www.exampleproject.com',
   },
   {
@@ -29,7 +29,7 @@ const CaseStudyList = [
     client: 'Developer',
     categories: 'It Company',
     budgets: '$250.000',
-    location: 'New York, USA',
+    location: 'Nairobi, Kenya',
     url: 'http://www.exampleproject.com',
   },
   {
@@ -42,7 +42,7 @@ const CaseStudyList = [
     client: 'Developer',
     categories: 'It Company',
     budgets: '$250.000',
-    location: 'New York, USA',
+    location: 'Nairobi, Kenya',
     url: 'http://www.exampleproject.com',
   },
   {
