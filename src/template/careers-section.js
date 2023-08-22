@@ -1,5 +1,5 @@
-import aboutImage1 from '../../src/assets/images/about/08.webp';
-import aboutImage2 from '../../src/assets/images/about/09.webp';
+import aboutImage1 from '../../src/assets/images/about/08.jpg';
+import aboutImage2 from '../../src/assets/images/about/09.jpg';
 import Counter from '../component/counter/counter';
 import List from '../component/list';
 
@@ -57,7 +57,7 @@ function CareersSection() {
         </h2>
         <p className="mb-4">
           Success isn’t really that difficult. There is a significant portion of
-          the population here in North America, that actually want and need
+          the population here in East Africa, that actually want and need
           success to be hard! Why? So they then have a built-in excuse when
           things don’t go their way! Pretty sad situation, to say the least.
         </p>

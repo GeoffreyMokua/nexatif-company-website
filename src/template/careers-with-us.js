@@ -1,7 +1,7 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from '../component/button/button';
-import aboutImage from '../../src/assets/images/about/07.webp';
+import aboutImage from '../../src/assets/images/about/07.jpg';
 
 function CareersWithUs() {
   const careersList = [
