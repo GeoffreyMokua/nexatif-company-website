@@ -33,15 +33,15 @@ function ContactFormInfo() {
                   <Logo />
                 </Link>
                 <p className="mt-4 mt-lg-5 mb-4">
-                  17504 Carlton Cuevas Rd, <br /> Gulfport, MS, 39503
+                  Nairobi, Kenya <br /> Monrovia, Street, 395
                 </p>
                 <h4 className="mb-4 fw-bold">
                   <Link to="/contact" className="color-inherit">
-                    +(704) 279-1249
+                    +(254) 790482160
                   </Link>
                 </h4>
                 <Link className="text-dark" to="/mailto:letstalk@hisoft.com">
-                  letstalk@hisoft.com
+                  letstalk@nexatif.com
                 </Link>
                 <Link
                   to="/contact"

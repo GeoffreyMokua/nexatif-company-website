@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // Data
-import BannerImg1 from '../../assets/images/banner/banner-img5.webp';
+import BannerImg1 from '../../assets/images/banner/03.jpg';
 import Button from '../../component/button/button';
 
 function Banner() {
