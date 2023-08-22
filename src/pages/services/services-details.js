@@ -12,7 +12,7 @@ import List from '../../component/list';
 import ServiceForm from '../../form/service-form';
 
 // Site Data
-import PagaHeaderImg from '../../assets/images/page-header/page-header-services.webp';
+import PagaHeaderImg from '../../assets/images/page-header/page-header-services.jpg';
 import ServicesList from '../../data/services-list';
 import BenefitImg from '../../assets/images/about/06.webp';
 

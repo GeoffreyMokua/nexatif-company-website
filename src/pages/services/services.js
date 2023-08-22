@@ -11,7 +11,7 @@ import ActionBox, { ActionBoxMini } from '../../component/action-box';
 import Services from '../../component/services/services-item';
 
 // Site Data
-import PagaHeaderImg from '../../assets/images/page-header/page-header-services.webp';
+import PagaHeaderImg from '../../assets/images/page-header/page-header-services.jpg';
 import ServicesList from '../../data/services-list';
 
 function Service() {
