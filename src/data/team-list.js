@@ -2,14 +2,14 @@ import teamImg1 from '../assets/images/team/team-01.jpeg';
 import teamImg2 from '../assets/images/team/team-02.jpg';
 import teamImg3 from '../assets/images/team/team-03.jpg';
 import teamImg4 from '../assets/images/team/team-04.jpg';
-import teamImg5 from '../assets/images/team/team-05.webp';
-import teamImg6 from '../assets/images/team/team-06.webp';
-import teamImg7 from '../assets/images/team/team-07.webp';
-import teamImg8 from '../assets/images/team/team-08.webp';
-import teamImg9 from '../assets/images/team/team-09.webp';
-import teamImg10 from '../assets/images/team/team-10.webp';
-import teamImg11 from '../assets/images/team/team-11.webp';
-import teamImg12 from '../assets/images/team/team-12.webp';
+import teamImg5 from '../assets/images/team/1.jpg';
+import teamImg6 from '../assets/images/team/2.jpg';
+import teamImg7 from '../assets/images/team/3.jpg';
+import teamImg8 from '../assets/images/team/4.jpg';
+import teamImg9 from '../assets/images/team/5.jpg';
+import teamImg10 from '../assets/images/team/6.jpg';
+import teamImg11 from '../assets/images/team/7.jpg';
+import teamImg12 from '../assets/images/team/8.jpg';
 
 const TeamList = [
   {
