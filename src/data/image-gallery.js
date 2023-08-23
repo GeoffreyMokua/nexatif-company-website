@@ -1,16 +1,16 @@
 // Image Gallery List 1
-import gallery1Img1 from '../assets/images/case-study/case-study-img1.webp';
-import gallery1Img2 from '../assets/images/case-study/case-study-img2.webp';
-import gallery1Img3 from '../assets/images/case-study/case-study-img3.webp';
-import gallery1Img4 from '../assets/images/case-study/case-study-img4.webp';
-import gallery1Img5 from '../assets/images/case-study/case-study-img5.webp';
-import gallery1Img6 from '../assets/images/case-study/case-study-img6.webp';
-import gallery1Img7 from '../assets/images/case-study/case-study-img7.webp';
-import gallery1Img8 from '../assets/images/case-study/case-study-img8.webp';
-import gallery1Img9 from '../assets/images/case-study/case-study-img9.webp';
-import gallery1Img10 from '../assets/images/case-study/case-study-img10.webp';
-import gallery1Img11 from '../assets/images/case-study/case-study-img11.webp';
-import gallery1Img12 from '../assets/images/case-study/case-study-img12.webp';
+import gallery1Img1 from '../assets/images/case-study/case-study-img1.jpg';
+import gallery1Img2 from '../assets/images/case-study/case-study-img2.jpg';
+import gallery1Img3 from '../assets/images/case-study/case-study-img3.jpg';
+import gallery1Img4 from '../assets/images/case-study/case-study-img4.jpg';
+import gallery1Img5 from '../assets/images/case-study/case-study-img5.jpg';
+import gallery1Img6 from '../assets/images/case-study/case-study-img6.jpg';
+import gallery1Img7 from '../assets/images/case-study/case-study-img7.jpg';
+import gallery1Img8 from '../assets/images/case-study/case-study-img8.jpg';
+import gallery1Img9 from '../assets/images/case-study/case-study-img9.jpg';
+import gallery1Img10 from '../assets/images/case-study/case-study-img10.jpg';
+import gallery1Img11 from '../assets/images/case-study/case-study-img11.jpg';
+import gallery1Img12 from '../assets/images/case-study/case-study-img12.jpg';
 
 // Image Gallery List 2
 import gallery2Img1 from '../assets/images/gallery/01.jpg';
