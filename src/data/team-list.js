@@ -4,8 +4,8 @@ import teamImg3 from '../assets/images/team/team-03.jpg';
 import teamImg4 from '../assets/images/team/team-04.jpg';
 import teamImg5 from '../assets/images/team/1.jpg';
 import teamImg6 from '../assets/images/team/2.jpg';
-import teamImg7 from '../assets/images/team/3.jpg';
-import teamImg8 from '../assets/images/team/4.jpg';
+import teamImg7 from '../assets/images/team/4.jpg';
+import teamImg8 from '../assets/images/team/3.jpg';
 import teamImg9 from '../assets/images/team/5.jpg';
 import teamImg10 from '../assets/images/team/6.jpg';
 import teamImg11 from '../assets/images/team/7.jpg';
@@ -114,7 +114,7 @@ const TeamList = [
   {
     id: 7,
     image: teamImg7,
-    name: 'Paul Flavius',
+    name: 'Anne Smith',
     position: 'Human resources',
     email: 'info@example.com',
     phone: '+101 800 555 45',
@@ -130,7 +130,7 @@ const TeamList = [
   {
     id: 8,
     image: teamImg8,
-    name: 'Anne Smith',
+    name: 'Paul Franklin',
     position: 'Sales and Marketing',
     email: 'info@example.com',
     phone: '+101 800 555 45',
