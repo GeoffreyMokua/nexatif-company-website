@@ -21,7 +21,7 @@ function ElementsImageGallery() {
       />
 
       <div className="content-wrapper">
-        <section className="section-ptb">
+        {/* <section className="section-ptb">
           <Container>
             <Row>
               <Col>
@@ -36,7 +36,7 @@ function ElementsImageGallery() {
               </Col>
             </Row>
           </Container>
-        </section>
+        </section> */}
 
         <section className="section-ptb section-mb bg-light">
           <Container>
