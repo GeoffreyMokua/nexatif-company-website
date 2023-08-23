@@ -50,12 +50,12 @@ function MainMenu() {
             <li key="hom-1">
               <NavLink to="/">Home Default</NavLink>
             </li>
-            <li key="hom-2">
+            {/* <li key="hom-2">
               <NavLink to="/home-2">Home London</NavLink>
             </li>
             <li key="hom-3">
               <NavLink to="/home-3">Home New York</NavLink>
-            </li>
+            </li> */}
           </ul>
         </li>
 
