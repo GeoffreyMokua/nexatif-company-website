@@ -177,39 +177,39 @@ const TeamList = [
   //   blockquote:
   //     'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit volup tatem acusantium dolor emque laud antium.',
   // },
-  {
-    id: 11,
-    image: teamImg11,
-    name: 'Kim Hamilton',
-    position: 'Web Developer',
-    email: 'info@example.com',
-    phone: '+101 800 555 45',
-    address: '2 Thorndale Circle, Magnolia,de, 19962  United States',
-    social: [
-      { id: 1, icon: 'fab fa-facebook-f' },
-      { id: 2, icon: 'fab fa-twitter' },
-      { id: 3, icon: 'fab fa-linkedin-in' },
-    ],
-    blockquote:
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit volup tatem acusantium dolor emque laud antium.',
-  },
-  {
-    id: 12,
-    image: teamImg12,
-    name: 'Jhon Deo',
-    position: 'Web Designer',
-    email: 'info@example.com',
-    phone: '+101 800 555 45',
-    address: '2 Thorndale Circle, Magnolia,de, 19962  United States',
-    social: [
-      { id: 1, icon: 'fab fa-facebook-f' },
-      { id: 2, icon: 'fab fa-twitter' },
-      { id: 3, icon: 'fab fa-linkedin-in' },
-      { id: 4, icon: 'fa-brands fa-skype' },
-    ],
-    blockquote:
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit volup tatem acusantium dolor emque laud antium.',
-  },
+  // {
+  //   id: 11,
+  //   image: teamImg11,
+  //   name: 'Kim Hamilton',
+  //   position: 'Web Developer',
+  //   email: 'info@example.com',
+  //   phone: '+101 800 555 45',
+  //   address: '2 Thorndale Circle, Magnolia,de, 19962  United States',
+  //   social: [
+  //     { id: 1, icon: 'fab fa-facebook-f' },
+  //     { id: 2, icon: 'fab fa-twitter' },
+  //     { id: 3, icon: 'fab fa-linkedin-in' },
+  //   ],
+  //   blockquote:
+  //     'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit volup tatem acusantium dolor emque laud antium.',
+  // },
+  // {
+  //   id: 12,
+  //   image: teamImg12,
+  //   name: 'Jhon Deo',
+  //   position: 'Web Designer',
+  //   email: 'info@example.com',
+  //   phone: '+101 800 555 45',
+  //   address: '2 Thorndale Circle, Magnolia,de, 19962  United States',
+  //   social: [
+  //     { id: 1, icon: 'fab fa-facebook-f' },
+  //     { id: 2, icon: 'fab fa-twitter' },
+  //     { id: 3, icon: 'fab fa-linkedin-in' },
+  //     { id: 4, icon: 'fa-brands fa-skype' },
+  //   ],
+  //   blockquote:
+  //     'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit volup tatem acusantium dolor emque laud antium.',
+  // },
 ];
 
 export default TeamList;
