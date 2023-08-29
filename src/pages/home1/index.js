@@ -33,6 +33,8 @@ import Slider from './slider';
 import CategoryList from './category-list';
 import TabSection from './tab';
 
+import "./home.css";
+
 function HomeIndex() {
   return (
     <>
@@ -483,6 +485,14 @@ function HomeIndex() {
                   />
                 </Col>
               </Row>
+              {/* <a
+                href="https://wa.me/254790482160"
+                class="whatsapp_float"
+               target="_blank"
+               rel="noopener noreferrer"
+               >
+            <i class="fa fa-whatsapp whatsapp-icon"></i>
+               </a> */}
             </Container>
           </section>
         </div>

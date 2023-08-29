@@ -48,7 +48,7 @@ function MissionVision() {
                     style="dark"
                     icon="flaticon-eye"
                     title="Our Vision"
-                    description="Our Vision is to be a top Web Design company in the IT sector and progress in our current position in the market."
+                    description="Our vision is to build an IT tech startup company that will be among the forerunners when it comes to offering software as a service (SaaS) in the world."
                   />
                 </Col>
                 <Col sm={6}>
@@ -56,7 +56,7 @@ function MissionVision() {
                     style="theme"
                     icon="flaticon-target"
                     title="Our Mission"
-                    description="Our mission is to be the industry's premier service provider company concentrated on fulfilling the maximum to our clients."
+                    description="Our mission is as an IT tech startup with bias in software as a services (SaaS) is to help a wide range of clients develop customized software that will help them simplify their businesses and operations."
                   />
                 </Col>
               </Row>
