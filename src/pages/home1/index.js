@@ -35,6 +35,7 @@ import TabSection from './tab';
 
 import "./home.css";
 
+
 function HomeIndex() {
   return (
     <>
@@ -485,14 +486,16 @@ function HomeIndex() {
                   />
                 </Col>
               </Row>
-              {/* <a
+              <a
                 href="https://wa.me/254790482160"
-                class="whatsapp_float"
+                 class="whatsapp_float"
                target="_blank"
                rel="noopener noreferrer"
                >
-            <i class="fa fa-whatsapp whatsapp-icon"></i>
-               </a> */}
+              <img className="whatsapp-icon" src="https://png.pngtree.com/png-vector/20230225/ourmid/pngtree-whatsapp-icon-social-media-png-image_6618452.png"/>
+               </a>
+              
+        
             </Container>
           </section>
         </div>
