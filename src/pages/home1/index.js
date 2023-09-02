@@ -486,14 +486,14 @@ function HomeIndex() {
                   />
                 </Col>
               </Row>
-              <a
+              {/* <a
                 href="https://wa.me/254790482160"
                  class="whatsapp_float"
                target="_blank"
                rel="noopener noreferrer"
                >
               <img className="whatsapp-icon" src="https://png.pngtree.com/png-vector/20230225/ourmid/pngtree-whatsapp-icon-social-media-png-image_6618452.png"/>
-               </a>
+               </a> */}
               
         
             </Container>
