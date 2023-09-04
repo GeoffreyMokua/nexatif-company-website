@@ -1,14 +1,14 @@
 const CatData = [
   {
     id: 1,
-    title: 'Web Development',
+    title: 'Software Development',
     className: 'active',
     icon: 'flaticon-monitor',
     lists: [
-      { id: 1, item: 'E-commerce strategy' },
-      { id: 2, item: 'Custom design' },
-      { id: 3, item: 'Front-End development' },
-      { id: 4, item: 'Business intelligence' },
+      { id: 1, item: 'ERP software development' },
+      { id: 2, item: 'BI software development' },
+      { id: 3, item: 'CRM software development' },
+      { id: 4, item: 'SCM software development' },
     ],
   },
   {
