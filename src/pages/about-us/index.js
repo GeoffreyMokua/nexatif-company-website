@@ -43,7 +43,7 @@ function AboutUs() {
                   <SectionTitle
                     extraClass="text-center"
                     title="Established in 2023 Nexatif has been offering world-class information technology."
-                    content="Positive pleasure-oriented goals are much more powerful motivators than negative fear-based ones. Although each is successful separately, the right combination of both is the most powerful motivational force known to humankind."
+                    content="Nexatif  is a client – focused and result driven IT tech startup company that is into ERP software, bi software, crm software, scm software and other software development. We will provide broad – based software development services at an affordable fee that won’t in any way put a hole in the pocket of our clients. We will offer standard and professional services to all to our clients."
                   />
                 </Col>
               </Row>
@@ -56,10 +56,10 @@ function AboutUs() {
                   <div className="timeline-text">
                     <h6>
                       {' '}
-                      They often mean leaving the perception of security in
-                      order to discover your personal freedom. These are the
-                      changes that will bring happiness and satisfaction into
-                      your life. Just go there now.
+                      At Nexatif our client’s best interest would always come first,
+                      and everything we do is guided by our values and professional ethics.
+                      We will ensure that we hire professionals who are experienced
+                      in the business analytics and enterprise software publishing industry in general.
                     </h6>
                     <p className="border-start ps-3 font-italic">
                       1 year out… having made a decade of changes. Imagine
@@ -74,6 +74,11 @@ function AboutUs() {
                       to paper and then keep it with you at all times. Review it
                       regularly and ensure that every step takes you closer to
                       your Vision and Goals.
+                      Our plan is to position the business to become the leading brand
+                      in software as a service (SaaS) business in the whole of Kenya, and also t
+                      o be amongst the top 10 IT tech startup companies in Kenya 
+                      within the first 10 years of operation. This might look too tall a dream
+                      but we are optimistic that this will surely be realized.
                     </p>
                   </div>
                 </Col>
