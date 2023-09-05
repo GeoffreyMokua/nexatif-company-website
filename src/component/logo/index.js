@@ -10,19 +10,19 @@ function Logo(props) {
         viewBox="0 0 143 41"
       >
         <text
-          id="NEXATIF"
+          id="hi-Nex"
           className="cls-1"
           transform="translate(50.922 30.025) scale(1.114)"
         >
-          NEXATIF
+          hi-Nex
         </text>
         {props.theme === 'logo-light' && (
           <text
-            id="NEXATIF"
+            id="hi-Nex"
             className="cls-5"
             transform="translate(50.922 30.025) scale(1.114)"
           >
-            NEXATIF
+            hi-Nex
           </text>
         )}
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 32 32">
