@@ -76,7 +76,7 @@ function ServiceForm() {
                 name="Term of Service"
                 onChange={handleChange}
               />{' '}
-              i agree to talk about my project with Nexatif
+              i agree to talk about my project with hi-Nex
             </div>
           </div>
           <div className="col-sm-12">

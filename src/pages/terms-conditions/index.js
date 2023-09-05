@@ -20,7 +20,7 @@ function TermsConditions() {
                     extraClass="text-center mb-0"
                     tag="h1"
                     title="Terms and Conditions"
-                    content="Please read these terms and conditions carefully before using www.nexatif.com website operated by NEXATIF."
+                    content="Please read these terms and conditions carefully before using www.hi-nex.com website operated by hi-Nex."
                   />
                 </Col>
               </Row>
@@ -42,7 +42,7 @@ function TermsConditions() {
                 By using this website, you certify that you have read and reviewed
                 this Agreement and that you agree to comply with its terms. If you do not
                 want to bound by the terms of this Agreement, you are advised to stop using the website
-                accordingly. Nexatif only grants use and access of this website, its products
+                accordingly. hi-Nex only grants use and access of this website, its products
                 and its services to those who have accepted its terms.
               </p>
               <h4 className="mt-4 text-primary">Applicable law
@@ -50,7 +50,7 @@ function TermsConditions() {
               <p className="mb-20">
                 By using this website, you agree that the laws of your country, without 
                 regard to principles of conflict laws, will govern these terms and conditions
-                or any dispute of any sort that might come between Nexatif and you or
+                or any dispute of any sort that might come between hi-Nex and you or
                 its business partners and associates.
 
               </p>
@@ -61,7 +61,7 @@ function TermsConditions() {
 
                 You must be at least 18 (eighteen) years of age before you can use this website.
                 By using this website, you warrant that you are at least 18 years of
-                age and you may legally adhere to this Agreement. Nexatif assumes
+                age and you may legally adhere to this Agreement. hi-Nex assumes
                 no responsibility for liabilities related to age misrepresentation.
               </p>
 
@@ -79,7 +79,7 @@ function TermsConditions() {
 
               </h4>
               <p className='mb-20'>
-                You agree to indemnify Nexatif and its affiliates and hold Nexatif harmless 
+                You agree to indemnify hi-Nex and its affiliates and hold hi-Nex harmless 
                 against legal claims and demands that may arise from your use or misuse of our services.
                 We reserve the right to select our own legal counsel. 
               </p>
@@ -89,10 +89,10 @@ function TermsConditions() {
 
               </h4>
               <p className='mb-20'>
-                Nexatif is not liable for any damages that may occur to you as a result of your misuse of our website.
-                Nexatif reserves the right to edit, modify, and change this Agreement at any time.
+                hi-Nex is not liable for any damages that may occur to you as a result of your misuse of our website.
+                hi-Nex reserves the right to edit, modify, and change this Agreement at any time.
                 We shall let our users know of these changes through electronic mail. This Agreement is an understanding between
-                Nexatif and the user, and this supersedes and replaces all prior agreements regarding the use of this website.
+                hi-Nex and the user, and this supersedes and replaces all prior agreements regarding the use of this website.
               </p>
 
 
@@ -125,10 +125,10 @@ function TermsConditions() {
               <h4 className="text-primary">Intellectual property</h4>
               <p className="mb-0">
                 You agree that all materials, products, and services provided on this 
-                website are property of Nexatif its affiliates, directors, officers, employees
+                website are property of hi-Nex its affiliates, directors, officers, employees
                 agents, suppliers or licensors including copyrights, trade secrets, trademarks,
                 patents, trade names, logos, designs, icons and other intellectual property.
-                You grant Nexatif a royalty-free, non-exclusive license to use, copy, modify and broadcast
+                You grant hi-Nex a royalty-free, non-exclusive license to use, copy, modify and broadcast
                 the content you upload and publish. For issues regarding intellectual property rights,
                 you should contact the company in order to come to an agreement.
               </p>

@@ -12,7 +12,7 @@ function FooterCopyright() {
           <div className="row">
             <div className="col-sm-12 text-center">
               <div className="copyright-text">
-                ©Copyright {currentYear} <Link to="/">nexatif</Link> All Rights
+                ©Copyright {currentYear} <Link to="/">hi-nex</Link> All Rights
                 Reserved
               </div>
             </div>

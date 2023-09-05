@@ -17,7 +17,7 @@ const TeamList = [
     image: teamImg1,
     name: 'Geoffrey Nyakundi',
     position: 'Chief Executive Officer',
-    email: 'geoffrey@nexatif.com',
+    email: 'geoffrey@hi-nex.com',
     phone: '+2547 9048 2160',
     address: 'P.O BOX 45200, Nairobi, CA',
     social: [

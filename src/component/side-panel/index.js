@@ -60,7 +60,7 @@ function SidePanel(props) {
                         </ul>
                     </div>
                     <div className="site-info">
-                        <span>letstalk@nexatif.com</span>
+                        <span>letstalk@hi-nex.com</span>
                         <p className="mb-0">+(254) 90482160</p>
                     </div>
                 </Offcanvas.Body>

@@ -12,7 +12,7 @@ const ServicesList = [
     icon: 'flaticon-data',
     title: 'Information Security',
     description:
-      'We as Nexatif provide Information security services which protects sensitive information from unauthorized activities, including inspection, modification, recording, and any disruption or destruction. The goal is to ensure the safety and privacy of critical data such as customer account details, financial data or intellectual property.',
+      'We as hi-Nex provide Information security services which protects sensitive information from unauthorized activities, including inspection, modification, recording, and any disruption or destruction. The goal is to ensure the safety and privacy of critical data such as customer account details, financial data or intellectual property.',
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const ServicesList = [
     icon: 'flaticon-icon-149196',
     title: 'Mobile Platforms',
     description:
-      'Nexatif works across the mobile platforms, frameworks & environments to mobilize your business. Its mobile application development services spans from idea conceptualization to delivery. Nexatif works with following mobile platforms, frameworks & environments',
+      'hi-Nex works across the mobile platforms, frameworks & environments to mobilize your business. Its mobile application development services spans from idea conceptualization to delivery. hi-Nex works with following mobile platforms, frameworks & environments',
   },
   {
     id: 4,

@@ -27,7 +27,7 @@ function AboutUs() {
     <>
       <div className="site-content">
         <PageHeader
-          title="About Nexatif"
+          title="About hi-Nex"
           description="Our Expertise. Know more about what we do"
           breadCrumbItems={[
             { label: 'Home', path: '/' },
@@ -42,8 +42,8 @@ function AboutUs() {
                 <Col lg={9}>
                   <SectionTitle
                     extraClass="text-center"
-                    title="Established in 2023 Nexatif has been offering world-class information technology."
-                    content="Nexatif  is a client – focused and result driven IT tech startup company that is into ERP software, bi software, crm software, scm software and other software development. We will provide broad – based software development services at an affordable fee that won’t in any way put a hole in the pocket of our clients. We will offer standard and professional services to all to our clients."
+                    title="Established in 2023 hi-Nex has been offering world-class information technology."
+                    content="hi-Nex  is a client – focused and result driven IT tech startup company that is into ERP software, bi software, crm software, scm software and other software development. We will provide broad – based software development services at an affordable fee that won’t in any way put a hole in the pocket of our clients. We will offer standard and professional services to all to our clients."
                   />
                 </Col>
               </Row>
@@ -56,7 +56,7 @@ function AboutUs() {
                   <div className="timeline-text">
                     <h6>
                       {' '}
-                      At Nexatif our client’s best interest would always come first,
+                      At hi-Nex our client’s best interest would always come first,
                       and everything we do is guided by our values and professional ethics.
                       We will ensure that we hire professionals who are experienced
                       in the business analytics and enterprise software publishing industry in general.

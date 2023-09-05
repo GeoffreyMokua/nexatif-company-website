@@ -64,7 +64,7 @@ const Header2 = (props) => {
                           <i className="flaticon-rocket"></i>
                           <span>
                             <label className="d-block">
-                              letstalk@nexatif.com
+                              letstalk@hi-nex.com
                             </label>
                             <label className="d-block">Nairobi Kenya</label>
                           </span>

@@ -101,7 +101,7 @@ function Careers() {
                 <Col lg={9}>
                   <SectionTitle
                     extraClass="text-center"
-                    title="Current career opportunities at nexatif"
+                    title="Current career opportunities at hi-Nex"
                     content="Positive pleasure-oriented goals are much more powerful motivators than negative fear-based ones."
                   />
                   <AccordionPGS accordionData={careersData} />

@@ -41,7 +41,7 @@ function ContactFormInfo() {
                   </Link>
                 </h4>
                 <Link className="text-dark" to="/mailto:letstalk@hisoft.com">
-                  letstalk@nexatif.com
+                  letstalk@hi-nex.com
                 </Link>
                 <Link
                   to="/contact"
