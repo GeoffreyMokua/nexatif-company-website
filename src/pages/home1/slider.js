@@ -36,7 +36,7 @@ function Slider() {
             <div className="banner-item">
               <div className="banner-content">
                 <h2 className="title">
-                  A digital marketing company you can trust
+                  A digital technology partner you can trust
                 </h2>
                 <h6>Award-Winning website design & creative digital agency.</h6>
                 <Link className="btn-secondary" to="/about-us">
