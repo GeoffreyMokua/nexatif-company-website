@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './style.scss';
 import '../form.scss';
+import axios from 'axios';
 
 function ContactForm() {
   const [inputs, setInputs] = useState({});
@@ -13,13 +14,25 @@ function ContactForm() {
     setInputs((values) => ({ ...values, [name]: value }));
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     const validationErrors = validateForm(inputs);
     if (Object.keys(validationErrors).length === 0) {
-      console.log(inputs); // Valid form data
+      // console.log(inputs); // Valid form data
+      const res = await axios.post('https://hi-nex-com.onrender.com/contact', {
+        FullNames: inputs.Username,
+        Email: inputs.Email,
+        PhoneNumber: inputs.PhoneNumber,
+        EnquiryType: inputs.EnquiryType,
+        EnquiryMessage: inputs.Message,
+      });
+      console.log(res);
       setErrors({});
+      setInputs({});
       setSuccessMessage('Form submitted successfully!');
+      setInterval(() => {
+        setSuccessMessage('');
+      }, 3000);
     } else {
       setErrors(validationErrors);
       setSuccessMessage('');

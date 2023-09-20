@@ -1,21 +1,41 @@
 import React from 'react';
 import { useState } from 'react';
+import axios from 'axios';
 import '../form.scss';
 import Button from '../../component/button/button';
+import { useNavigate } from 'react-router-dom';
 
 function TeamForm(props) {
-  const [inputs, setInputs] = useState({});
-
+  const [inputs, setInputs] = useState({
+    Username: '',
+    Email: '',
+    PhoneNumber: '',
+    Subject: '',
+    Message: '',
+  });
+  const [successMessage, setSuccessMessage] = useState('');
+  const navigate = useNavigate();
   const handleChange = (event) => {
-    const name = event.target.name;
-    const value = event.target.value;
-    setInputs((values) => ({ ...values, [name]: value }));
+    setInputs({ ...inputs, [event.target.name]: event.target.value });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    //alert(inputs);
-    console.log(inputs);
+    const res = await axios.post('https://hi-nex-com.onrender.com/contact', {
+      FullNames: inputs.Username,
+      Email: inputs.Email,
+      PhoneNumber: inputs.PhoneNumber,
+      EnquiryType: inputs.Subject,
+      EnquiryMessage: inputs.Message,
+    });
+
+    if (res.data !== 'error') {
+      setSuccessMessage('Form submitted successfully!');
+      setInterval(() => {
+        event.target.reset();
+        setSuccessMessage('');
+      }, 3000);
+    }
   };
 
   return (
@@ -26,12 +46,12 @@ function TeamForm(props) {
           <div className="row row-gap">
             <div className="col-sm-6">
               <div className="input-control">
-                <label>Username : </label>
+                <label>Full names : </label>
                 <input
                   type="text"
-                  name="Ussername"
-                  defaultValue={inputs.Username || ''}
-                  onChange={handleChange}
+                  name="Username"
+                  // value={inputs?.Username}
+                  onChange={(e) => handleChange(e)}
                   placeholder="Your name"
                 />
               </div>
@@ -42,7 +62,7 @@ function TeamForm(props) {
                 <input
                   type="emal"
                   name="Email"
-                  defaultValue={inputs.Email || ''}
+                  // value={inputs?.Email}
                   onChange={handleChange}
                   placeholder="example@email.com"
                 />
@@ -54,7 +74,7 @@ function TeamForm(props) {
                 <input
                   type="tel"
                   name="PhoneNumber"
-                  defaultValue={inputs.PhoneNumber || ''}
+                  // value={inputs?.PhoneNumber}
                   onChange={handleChange}
                   placeholder="Phone"
                 />
@@ -66,7 +86,7 @@ function TeamForm(props) {
                 <input
                   type="text"
                   name="Subject"
-                  defaultValue={inputs.Message || ''}
+                  // value={inputs?.Subject}
                   onChange={handleChange}
                   placeholder="Add Subject"
                 />
@@ -77,14 +97,19 @@ function TeamForm(props) {
               <textarea
                 rows={5}
                 name="Message"
-                defaultValue={inputs.Message || ''}
+                // value={inputs?.Message}
                 onChange={handleChange}
                 placeholder="Write a Message"
               />
             </div>
+            {successMessage && (
+              <div className="col-sm-12">
+                <div className="success-message">{successMessage}</div>
+              </div>
+            )}
             <div className="input-control">
               <button className="btn-primary" type="submit">
-                Send a Massage<i className="fas fa-arrow-right"></i>
+                Send a Message<i className="fas fa-arrow-right"></i>
               </button>
             </div>
           </div>
