@@ -1,5 +1,6 @@
 {
   "name": "hi-nex",
+  "homepage": "http://hi-nex.com",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

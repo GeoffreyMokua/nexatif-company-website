@@ -15,6 +15,7 @@ function ContactForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
     const validationErrors = validateForm(inputs);
     if (Object.keys(validationErrors).length === 0) {
       console.log(inputs); // Valid form data
