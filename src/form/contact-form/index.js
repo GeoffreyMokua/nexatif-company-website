@@ -82,7 +82,7 @@ function ContactForm() {
         <div className="row row-gap">
           <div className="col-sm-12">
             <div className="input-control">
-              <label>Username : </label>
+              <label>Full Names : </label>
               <input
                 type="text"
                 name="Username"
