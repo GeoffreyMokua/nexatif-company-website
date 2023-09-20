@@ -120,7 +120,7 @@ function TeamSingle() {
                   You’re about to grow and learn a lot more about yourself.
                 </p>
                 <br />
-                <TeamForm title="Feel Free to Get in Touch with us." />
+                {/* <TeamForm title="Feel Free to Get in Touch with us." /> */}
               </Col>
             </Row>
           </Container>
