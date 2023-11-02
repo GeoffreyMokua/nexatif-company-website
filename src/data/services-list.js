@@ -9,18 +9,18 @@ const ServicesList = [
   {
     id: 1,
     imgsrc: servicesimg1,
-    icon: 'flaticon-data',
-    title: 'Information Security',
+    icon: 'flaticon-monitor',
+    title: 'Software Development',
     description:
-      'We as hi-Nex provide Information security services which protects sensitive information from unauthorized activities, including inspection, modification, recording, and any disruption or destruction. The goal is to ensure the safety and privacy of critical data such as customer account details, financial data or intellectual property.',
+      'Our Software development services offer some of the unique perks, including creative inputs, latest features, and appealing app design. We excel in building a mobile app well-suited for your requirements, falling in your budget and delivered within the timeline.',
   },
   {
     id: 2,
     imgsrc: servicesimg2,
     icon: 'flaticon-author',
-    title: 'Data Synchronization',
+    title: 'IT Services',
     description:
-      'We enable Data synchronization in your business which entails synchronizing data between two or more devices and updating changes automatically between them to maintain consistency within systems.',
+      ' We offer a wide range of IT services designed to promote and stimulate the use of technology by businesses and end-users. In the digital age, organizations use technology services to build and develop specialized technology-based solutions by incorporating software, hardware, telecommunications networks, and electronics processes..',
   },
   {
     id: 3,

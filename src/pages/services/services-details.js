@@ -24,33 +24,33 @@ function ServicesSingle() {
   const listItems = [
     {
       id: 1,
-      item: 'Use a past defeat as a motivator. Remind yourself you have nowhere to go except',
+      item: 'ERP Software Development.',
       url: '#',
     },
-    { id: 2, item: 'Give yourself the power of responsibility.', url: '#' },
+    { id: 2, item: 'Mobile Development.', url: '#' },
     {
       id: 3,
-      item: 'Remind yourself the only thing stopping you is yourself.',
+      item: 'CRM Software Development.',
       url: '#',
     },
     {
       id: 4,
-      item: 'Make a list of your achievements toward your long-term',
+      item: 'Branding Services.',
       url: '#',
     },
     {
       id: 5,
-      item: 'goal and remind yourself that intentions don’t count, only actions.',
+      item: 'Digital Marketing.',
       url: '#',
     },
   ];
 
   const benefitList = [
-    { id: 1, item: 'Use a past defeat', url: '#' },
-    { id: 2, item: 'Give yourself the power', url: '#' },
-    { id: 3, item: 'Remind yourself', url: '#' },
-    { id: 4, item: 'Achievements toward', url: '#' },
-    { id: 5, item: 'goal and remind yourself', url: '#' },
+    { id: 1, item: 'Controlled costs', url: '#' },
+    { id: 2, item: 'Trusted IT Advisor', url: '#' },
+    { id: 3, item: 'Economy of scale', url: '#' },
+    { id: 4, item: 'Increased Efficiency', url: '#' },
+    { id: 5, item: 'Small Initial Investment', url: '#' },
   ];
 
   return (
@@ -75,15 +75,11 @@ function ServicesSingle() {
                 </div>
                 <div className="mb-5">
                   <p>
-                    They often mean leaving the perception of security in order
-                    to discover your personal freedom. These are the changes
-                    that will bring happiness and satisfaction into your life.
-                    your goals in mind and Just go there now. Success isn't
-                    really that difficult. There is a significant portion of the
-                    population here in East Africa, that actually want and
-                    need success to be hard! Why? So they then have a built-in
-                    excuse when things don’t go their way! Pretty sad situation,
-                    to say the least.
+                    We are the leading Software Design and Development Company
+                    working for brands across the world. Just let us know what
+                    you desire the most for your business, and we’ll incorporate
+                    it into a fully-fledged mobile app by building adaptable
+                    mobile layouts followed by error-free development.
                   </p>
                 </div>
 
@@ -96,11 +92,10 @@ function ServicesSingle() {
                 </div>
 
                 <p>
-                  Politics can be attributed to his perseverance to overcome his
-                  personal liabilities, and his desire to constantly become
-                  better. Next time you really want to achieve something, take
-                  time to focus on your own personal journal. What is your
-                  temptation that is standing in your ways to greatness.
+                  The Information Technology Services (ITS) Industry is a broad
+                  and ever-evolving sector that covers an extensive range of
+                  services. These are designed to help businesses harness
+                  technology effectively to achieve their objectives.
                 </p>
 
                 <List
@@ -110,10 +105,9 @@ function ServicesSingle() {
                 />
 
                 <p className="mb-4 mb-md-5">
-                  Politics can be attributed to his perseverance to overcome his
-                  personal liabilities, and his desire to constantly become
-                  better. Next time you really want to achieve something, take
-                  time to focus on your own personal journal.
+                  We intend to provide products that are strictly profitable yet
+                  innovative. our illustrious list of developing products
+                  enables our team to provide superior decisions & solutions.
                 </p>
 
                 <Row className="mb-4 mb-md-5">

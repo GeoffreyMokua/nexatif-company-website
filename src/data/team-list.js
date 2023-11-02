@@ -31,8 +31,8 @@ const TeamList = [
   {
     id: 2,
     image: teamImg2,
-    name: 'Homer Reyes',
-    position: 'Vice President',
+    name: 'Nicholas Gichobi',
+    position: 'Software Developer',
     email: 'info@example.com',
     phone: '+101 800 555 45',
     address: '2 Thorndale Circle, Magnolia,de, 19962  United States',
@@ -114,8 +114,8 @@ const TeamList = [
   {
     id: 7,
     image: teamImg7,
-    name: 'Anne Smith',
-    position: 'Human resources',
+    name: 'Dennis Maiga',
+    position: 'Marketing',
     email: 'info@example.com',
     phone: '+101 800 555 45',
     address: '2 Thorndale Circle, Magnolia,de, 19962  United States',
